@@ -190,6 +190,49 @@
       filesWord: "файла",
       folderAddToast: "Файлът е добавен към сейфа!",
 
+      // SLA Section
+      slaSectionEyebrow: "Прозрачност & Сигурност",
+      slaSectionTitle: "Ключови клаузи на нашето Service Level Agreement (SLA)",
+      slaSectionDesc: "Ние гарантираме всяка буква от нашия договор. Ето защо водещи български и европейски бизнеси избират BTAB.",
+      slaCard1Title: "⚡ Скоростна гаранция: Google PageSpeed 95+",
+      slaCard1Desc: "Ако след предаване на сайта оценката в Google PageSpeed Insights за мобилни устройства е под 95 точки, нашият екип оптимизира кода за наша сметка до постигане на целевия резултат.",
+      slaCard2Title: "⏱️ Време за реакция: до 2 работни часа",
+      slaCard2Desc: "Всички критични инциденти се поемат в рамките на 120 минути. Имате персонален технически отговорник и директен канал в Telegram / WhatsApp.",
+      slaCard3Title: "🔐 Пълни права и нулев Vendor Lock-In",
+      slaCard3Desc: "Ние не ви обвързваме с платени абонаменти за наш софтуер. Всички авторски права, домейн имена, бази данни и Git репозитории са изцяло на името на вашия бизнес.",
+      slaCard4Title: "🛡️ 180 дни пълна техническа гаранция",
+      slaCard4Desc: "След пускането на сайта в продукция вие получавате половин година безплатно наблюдение, обновяване на сигурността и премахване на евентуални грешки.",
+      slaCtaTitle: "Желаете да прегледате пълен образец на договора?",
+      slaCtaDesc: "Свържете се с нашия отдел за правно и техническо съгласуване. Ще ви изпратим типово споразумение и техническо задание за вашия бранш.",
+      slaCtaBtn: "Заявете образец на SLA 2026 →",
+
+      // About Story & Office
+      aboutStoryBadge: "Нашата история",
+      aboutStoryTitle: "От 2016 година създаваме дигитални инструменти без аналог в скоростта",
+      aboutStoryP1: "BTAB стартира като специализиран екип от уеб инженери и системни архитекти в гр. Бургас. Видяхме огромен проблем на пазара: повечето агенции предлагат тромави, готови WordPress теми, претъпкани с 40+ плъгина, които се зареждат по 4–6 секунди и лесно стават жертва на пробиви в сигурността.",
+      aboutStoryP2: "Ние избрахме различен път: <strong>Drupal 11 архитектура</strong>, чист семантичен код, лек CSS без излишни мегабайти и мигновено зареждане под 0.5 секунди. Днес зад гърба ни са над 150 успешно пуснати проекта в България, Великобритания, Германия и цяла Европа.",
+      aboutCoordTitle: "Координати на студиото",
+      aboutCoordAddr: "📍 <strong>Адрес:</strong> ж.к. Лазур 130, Бургас 8000, България",
+      aboutCoordHours: "🕒 <strong>Работно време:</strong> Пон – Пет: 09:00 – 18:00 (EET)",
+      aboutCoordLegal: "🏢 <strong>ЕИК / ДДС:</strong> Регистрирано дружество съгласно Търговския закон на РБ",
+      aboutWhatsappBtn: "WhatsApp връзка",
+
+      // Contacts Form Card
+      contactBriefTitle: "Изпратете бриф за вашия сайт",
+      contactBriefDesc: "Попълнете формата и нашият водещ архитект ще се свърже с вас в рамките на 2 часа с предварителна оценка и препоръки.",
+      contactDirectWhatsappVal: "+359 879 198 455 (Моментален отговор)",
+
+      // Portfolio & Hero Pills & Footer
+      statConversion: "Среден ръст на конверсиите",
+      portfolioCtaDesc: "Свържете се с нас за безплатна архитектурна консултация и анализ на вашия бранш.",
+      heroPill1: "🎯 Скорост 0.4s (PageSpeed 95–100)",
+      heroPill2: "🛡️ 6 месеца безплатна гаранция",
+      heroPill3: "📍 Бургас & ЕС",
+      trustStatSupportVal: "6 мес.",
+      footerAddr: "Бургас, ж.к. Лазур 130",
+      footerWhatsapp: "WhatsApp чат",
+      footerTelegram: "Telegram чат",
+
       // Portfolio
       portfolioEyebrow: "Избрани проекти",
       portfolioTitle: "Реални резултати за реални бизнеси",
@@ -433,6 +476,49 @@
       folder3Title: "Contract & Warranty",
       filesWord: "files",
       folderAddToast: "File added to the vault!",
+
+      // SLA Section
+      slaSectionEyebrow: "Transparency & Security",
+      slaSectionTitle: "Key Clauses of Our Service Level Agreement (SLA)",
+      slaSectionDesc: "We stand behind every word of our contract. That is why leading European and regional businesses choose BTAB.",
+      slaCard1Title: "⚡ Speed Guarantee: Google PageSpeed 95+",
+      slaCard1Desc: "If the Google PageSpeed Insights mobile score is below 95 points upon delivery, our engineering team optimizes the code at our expense until the target is met.",
+      slaCard2Title: "⏱️ Response Time: Up to 2 Business Hours",
+      slaCard2Desc: "All critical incidents are handled within 120 minutes. You have a dedicated technical lead and a direct channel in Telegram / WhatsApp.",
+      slaCard3Title: "🔐 Full IP Rights & Zero Vendor Lock-In",
+      slaCard3Desc: "We never bind you to paid proprietary subscriptions. All intellectual property, domain names, databases, and Git repositories belong 100% to your business.",
+      slaCard4Title: "🛡️ 180-Day Comprehensive Warranty",
+      slaCard4Desc: "Following project launch, you receive six months of free performance monitoring, security updates, and bug fixes.",
+      slaCtaTitle: "Would you like to review a sample contract?",
+      slaCtaDesc: "Contact our legal and technical team. We will send you a model agreement and technical specification tailored to your industry.",
+      slaCtaBtn: "Request Sample SLA 2026 →",
+
+      // About Story & Office
+      aboutStoryBadge: "Our Story",
+      aboutStoryTitle: "Crafting digital instruments with unmatched speed since 2016",
+      aboutStoryP1: "BTAB started as a specialized team of web engineers and system architects in Burgas. We saw a major market flaw: most agencies deliver sluggish WordPress themes bloated with 40+ plugins that load in 4–6 seconds and are vulnerable to security breaches.",
+      aboutStoryP2: "We chose a different path: <strong>Drupal 11 architecture</strong>, clean semantic code, lightweight CSS without mega-bloat, and instant sub-0.5s loading. Today, we have delivered 150+ successful projects across Bulgaria, the UK, Germany, and Europe.",
+      aboutCoordTitle: "Studio Coordinates",
+      aboutCoordAddr: "📍 <strong>Address:</strong> Lazur 130, Burgas 8000, Bulgaria",
+      aboutCoordHours: "🕒 <strong>Hours:</strong> Mon – Fri: 09:00 – 18:00 (EET)",
+      aboutCoordLegal: "🏢 <strong>VAT / Registration:</strong> Registered commercial entity under Bulgarian & EU law",
+      aboutWhatsappBtn: "WhatsApp Chat",
+
+      // Contacts Form Card
+      contactBriefTitle: "Submit a Project Brief",
+      contactBriefDesc: "Fill in the form and our lead architect will contact you within 2 hours with an initial estimate and suggestions.",
+      contactDirectWhatsappVal: "+359 879 198 455 (Instant Response)",
+
+      // Portfolio & Hero Pills & Footer
+      statConversion: "Average Conversion Growth",
+      portfolioCtaDesc: "Contact us for a free architectural consultation and competitor analysis.",
+      heroPill1: "🎯 Speed 0.4s (PageSpeed 95–100)",
+      heroPill2: "🛡️ 6 Months Free Warranty",
+      heroPill3: "📍 Burgas & EU",
+      trustStatSupportVal: "6 mo.",
+      footerAddr: "Burgas, Lazur 130",
+      footerWhatsapp: "WhatsApp Chat",
+      footerTelegram: "Telegram Chat",
 
       // Portfolio
       portfolioEyebrow: "Featured Projects",
@@ -678,6 +764,49 @@
       filesWord: "файли",
       folderAddToast: "Файл додано до сейфу!",
 
+      // SLA Section
+      slaSectionEyebrow: "Прозорість та Безпека",
+      slaSectionTitle: "Ключові пункти нашого Service Level Agreement (SLA)",
+      slaSectionDesc: "Ми гарантуємо кожну букву нашого договору. Ось чому провідні європейські та українські бізнеси обирають BTAB.",
+      slaCard1Title: "⚡ Гарантія швидкості: Google PageSpeed 95+",
+      slaCard1Desc: "Якщо після здачі сайту оцінка в Google PageSpeed Insights для мобільних пристроїв нижча за 95 балів, наша команда оптимізує код власним коштом до досягнення мети.",
+      slaCard2Title: "⏱️ Час реакції: до 2 робочих годин",
+      slaCard2Desc: "Усі критичні інциденти приймаються в роботу протягом 120 хвилин. Ви маєте персонального техліда та прямий канал у Telegram / WhatsApp.",
+      slaCard3Title: "🔐 Повні права та нульовий Vendor Lock-In",
+      slaCard3Desc: "Ми не прив'язуємо вас до платних передплат на власний софт. Усі авторські права, домени, бази даних та Git-репозиторії на 100% належать вашому бізнесу.",
+      slaCard4Title: "🛡️ 180 днів повної технічної гарантії",
+      slaCard4Desc: "Після запуску сайту в продуктив ви отримуєте пів року безкоштовного моніторингу, оновлень безпеки та усунення можливих помилок.",
+      slaCtaTitle: "Бажаєте ознайомитися з повним зразком договору?",
+      slaCtaDesc: "Зв'яжіться з нашим юридичним та технічним відділом. Ми надішлемо вам типовий договір та технічне завдання під вашу нішу.",
+      slaCtaBtn: "Запитати зразок SLA 2026 →",
+
+      // About Story & Office
+      aboutStoryBadge: "Наша історія",
+      aboutStoryTitle: "З 2016 року створюємо цифрові інструменти без аналогів у швидкості",
+      aboutStoryP1: "BTAB стартував як спеціалізована команда веб-інженерів та системних архітекторів у Бургасі. Ми побачили величезну проблему ринку: більшість агенцій пропонують громіздкі WordPress-шаблони, перевантажені 40+ плагінами, які завантажуються по 4–6 секунд і легко ламаються.",
+      aboutStoryP2: "Ми обрали інший шлях: <strong>архітектура Drupal 11</strong>, чистий семантичний код, легкий CSS без зайвого баласту та миттєве завантаження до 0.5 секунди. Сьогодні за нашими плечима понад 150 успішних проєктів у Болгарії, Британії, Німеччині та Європі.",
+      aboutCoordTitle: "Координати студії",
+      aboutCoordAddr: "📍 <strong>Адреса:</strong> ж.к. Лазур 130, Бургас 8000, Болгарія",
+      aboutCoordHours: "🕒 <strong>Графік роботи:</strong> Пн – Пт: 09:00 – 18:00 (EET)",
+      aboutCoordLegal: "🏢 <strong>ЄДРПОУ / ПДВ:</strong> Зареєстрована компанія згідно із законодавством ЄС та Болгарії",
+      aboutWhatsappBtn: "WhatsApp зв'язок",
+
+      // Contacts Form Card
+      contactBriefTitle: "Надішліть бриф для вашого сайту",
+      contactBriefDesc: "Заповніть форму, і наш провідний архітектор зв'яжеться з вами протягом 2 годин із попередньою оцінкою та рекомендаціями.",
+      contactDirectWhatsappVal: "+359 879 198 455 (Миттєва відповідь)",
+
+      // Portfolio & Hero Pills & Footer
+      statConversion: "Середнє зростання конверсій",
+      portfolioCtaDesc: "Зв'яжіться з нами для безкоштовної архітектурної консультації та аналізу вашої ніші.",
+      heroPill1: "🎯 Швидкість 0.4s (PageSpeed 95–100)",
+      heroPill2: "🛡️ 6 місяців безкоштовної гарантії",
+      heroPill3: "📍 Бургас та ЄС",
+      trustStatSupportVal: "6 міс.",
+      footerAddr: "Бургас, ж.к. Лазур 130",
+      footerWhatsapp: "WhatsApp чат",
+      footerTelegram: "Telegram чат",
+
       // Portfolio
       portfolioEyebrow: "Наші кейси",
       portfolioTitle: "Реальні проекти, перевірені часом та ринком",
@@ -921,6 +1050,49 @@
       folder3Title: "Договор и Гарантия",
       filesWord: "файла",
       folderAddToast: "Файл добавлен в сейф!",
+
+      // SLA Section
+      slaSectionEyebrow: "Прозрачность и Безопасность",
+      slaSectionTitle: "Ключевые пункты нашего Service Level Agreement (SLA)",
+      slaSectionDesc: "Мы гарантируем каждую букву нашего договора. Вот почему ведущие европейские и региональные бизнесы выбирают BTAB.",
+      slaCard1Title: "⚡ Скоростная гарантия: Google PageSpeed 95+",
+      slaCard1Desc: "Если после сдачи сайта оценка в Google PageSpeed Insights для мобильных устройств ниже 95 баллов, наша команда оптимизирует код за наш счет до достижения цели.",
+      slaCard2Title: "⏱️ Время реакции: до 2 рабочих часов",
+      slaCard2Desc: "Все критические инциденты берутся в работу в течение 120 минут. У вас есть персональный техлид и прямой канал в Telegram / WhatsApp.",
+      slaCard3Title: "🔐 Полные права и нулевой Vendor Lock-In",
+      slaCard3Desc: "Мы не привязываем вас к платным подпискам на наш софт. Все авторские права, доменные имена, базы данных и Git-репозитории на 100% принадлежат вашему бизнесу.",
+      slaCard4Title: "🛡️ 180 дней полной технической гарантии",
+      slaCard4Desc: "После запуска сайта в прод вы получаете полгода бесплатного мониторинга, обновлений безопасности и устранения любых ошибок.",
+      slaCtaTitle: "Хотите ознакомиться с полным образцом договора?",
+      slaCtaDesc: "Свяжитесь с нашим отделом для согласования. Мы вышлем вам типовой договор и техническое задание под вашу сферу.",
+      slaCtaBtn: "Запросить образец SLA 2026 →",
+
+      // About Story & Office
+      aboutStoryBadge: "Наша история",
+      aboutStoryTitle: "С 2016 года создаем цифровые инструменты без аналогов в скорости",
+      aboutStoryP1: "BTAB стартовал как специализированная команда веб-инженеров и системных архитекторов в Бургасе. Мы увидели ключевую проблему рынка: большинство студий предлагают тяжелые шаблоны WordPress с 40+ плагинами, которые загружаются по 4–6 секунд и уязвимы к взлому.",
+      aboutStoryP2: "Мы выбрали другой путь: <strong>архитектура Drupal 11</strong>, чистый семантический код, легкий CSS без балласта и мгновенная загрузка до 0.5 секунды. Сегодня за нашими плечами более 150 успешных проектов в Болгарии, Великобритании, Германии и Европе.",
+      aboutCoordTitle: "Координаты студии",
+      aboutCoordAddr: "📍 <strong>Адрес:</strong> ж.к. Лазур 130, Бургас 8000, Болгария",
+      aboutCoordHours: "🕒 <strong>График работы:</strong> Пн – Пт: 09:00 – 18:00 (EET)",
+      aboutCoordLegal: "🏢 <strong>ЕИК / НДС:</strong> Зарегистрированное юрлицо по законодательству ЕС и Болгарии",
+      aboutWhatsappBtn: "WhatsApp связь",
+
+      // Contacts Form Card
+      contactBriefTitle: "Отправьте бриф для вашего сайта",
+      contactBriefDesc: "Заполните форму, и наш ведущий архитектор свяжется с вами в течение 2 часов с предварительной оценкой и рекомендациями.",
+      contactDirectWhatsappVal: "+359 879 198 455 (Мгновенный ответ)",
+
+      // Portfolio & Hero Pills & Footer
+      statConversion: "Средний рост конверсий",
+      portfolioCtaDesc: "Свяжитесь с нами для бесплатной архитектурной консультации и анализа вашей сферы.",
+      heroPill1: "🎯 Скорость 0.4s (PageSpeed 95–100)",
+      heroPill2: "🛡️ 6 месяцев бесплатной гарантии",
+      heroPill3: "📍 Бургас и ЕС",
+      trustStatSupportVal: "6 мес.",
+      footerAddr: "Бургас, ж.к. Лазур 130",
+      footerWhatsapp: "WhatsApp чат",
+      footerTelegram: "Telegram чат",
 
       // Portfolio
       portfolioEyebrow: "Наши работы",
@@ -1443,6 +1615,8 @@
       if (dict[key] !== undefined) {
         if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
           el.placeholder = dict[key];
+        } else if (typeof dict[key] === 'string' && dict[key].includes('<') && dict[key].includes('>')) {
+          el.innerHTML = dict[key];
         } else {
           el.textContent = dict[key];
         }
