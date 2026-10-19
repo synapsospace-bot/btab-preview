@@ -32,14 +32,14 @@
       // Subpage Headers & Content
       servicesPageBadge: "Инженерна разработка на уеб системи",
       servicesPageTitle: "Пълен спектър от услуги за дигитален растеж в ЕС",
-      servicesPageDesc: "От защитени корпоративни портали на Drupal 11 до високонатоварени онлайн магазини с гарантирана скорост PageSpeed 99+ и чист код без излишен баласт.",
+      servicesPageDesc: "От защитени корпоративни портали на Drupal 11 до високонатоварени онлайн магазини с целева скорост до 0.4s (PageSpeed 95–100) и чист код без излишен баласт.",
       servicesProcessTitle: "Нашият 4-етапен инженерен процес",
       step1Title: "01. Анализ & Архитектура",
       step1Desc: "Анализ на бизнес процесите, изграждане на информационна архитектура и схема на данните.",
       step2Title: "02. UX/UI Проектиране",
       step2Desc: "Индивидуален дизайн без тежки библиотеки, адаптивен за всички екрани и мобилни устройства.",
       step3Title: "03. Чист код & Оптимизация",
-      step3Desc: "Разработка на Drupal 11 / OpenCart с PageSpeed 99+, семантичен код и нулево забавяне.",
+      step3Desc: "Разработка на Drupal 11 / OpenCart с PageSpeed 95–100, семантичен код и нулево забавяне.",
       step4Title: "04. Тестване & 6м Гаранция",
       step4Desc: "Стрес-тестове, проверка за киберсигурност, официален договор и 6 месеца безплатен съпорт.",
       servicesAllBtn: "Вижте детайли за всички услуги →",
@@ -70,7 +70,7 @@
       aboutOfficeDesc: "Нашият централен офис се намира в ж.к. Лазур 130 в гр. Бургас. Проектираме системи за клиенти от България, Германия, Великобритания и цяла Европа.",
 
       portfolioPageBadge: "Доказани резултати",
-      portfolioPageTitle: "Портфолио от завършени системи и сайтове с PageSpeed 99+",
+      portfolioPageTitle: "Портфолио от завършени системи и сайтове с PageSpeed 95–100",
       portfolioPageDesc: "Разгледайте реалните резултати, метрики и архитектурни решения, които внедрихме за нашите клиенти.",
       portfolioAllBtn: "Вижте цялото портфолио на студиото →",
 
@@ -95,13 +95,13 @@
       heroBubbleHint: "● КЛИКНЕТЕ ВЪРХУ БАЛОНИТЕ. ТЕ СЕ ПУКАТ.",
       heroAsteriskNote: "Инженерно проектиране на уеб системи от следващо поколение.",
       heroTitle: "Бързи, сигурни и високодоходни сайтове за вашия бизнес.",
-      heroDesc: "Уеб студио BTAB (Бургас, България). Проектираме модерни уебсайтове на Drupal 11, OpenCart и Headless архитектури с гарантирана скорост PageSpeed 99+ и чист код без излишни зависимости.",
+      heroDesc: "Уеб студио BTAB (Бургас, България). Проектираме модерни уебсайтове на Drupal 11, OpenCart и Headless архитектури с целева скорост до 0.4s (PageSpeed 95–100) и чист код без излишни зависимости.",
       heroBtnCalc: "Изчислете стойност →",
       heroBtnPortfolio: "Вижте нашите работи",
 
       // Benchmark
       benchTitle: "Тест за скорост в реално време",
-      benchLive: "Google PageSpeed: 99+",
+      benchLive: "Google PageSpeed: 95–100",
       benchBtabTag: "Код на BTAB",
       benchBtabSub: "Моментално зареждане за 0.4s",
       benchOtherTag: "Обикновени шаблони",
@@ -111,7 +111,7 @@
       benchScore: "PageSpeed Индекс",
 
       // Marquee Ribbons
-      marquee1: "DRUPAL 11 АРХИТЕКТУРА ✱ СКОРОСТ 0.4s ✱ GOOGLE PAGESPEED 99+ ✱ OPENCART 4 ✱ ЧИСТ КОД ✱ БЕЗПЛАТНА ПОДДРЪЖКА 6 МЕСЕЦА ✱ БЪЛГАРИЯ & ЕС ✱",
+      marquee1: "DRUPAL 11 АРХИТЕКТУРА ✱ СКОРОСТ 0.4s ✱ GOOGLE PAGESPEED 95–100 ✱ OPENCART 4 ✱ ЧИСТ КОД ✱ БЕЗПЛАТНА ПОДДРЪЖКА 6 МЕСЕЦА ✱ БЪЛГАРИЯ & ЕС ✱",
       marquee2: "✱ 10+ ГОДИНИ В ЕС ✱ 150+ ИЗПЪЛНЕНИ ПРОЕКТА ✱ БУРГАС · СОФИЯ · ВАРНА · ЕС ✱ ОФИЦИАЛЕН ДОГОВОР И ГАРАНЦИЯ ✱ БЪРЗ УЕБ ДИЗАЙН ✱",
 
       // Trust Stats
@@ -154,7 +154,7 @@
       calcEstimateTitle: "Предварителна оценка",
       calcTimeLabel: "Приблизителен срок:",
       calcTimeDays: "работни дни",
-      calcBenefit1: "Гарантирана скорост PageSpeed 95+",
+      calcBenefit1: "Оптимизирано за PageSpeed 95–100",
       calcBenefit2: "Официален договор с гаранция",
       calcBenefit3: "6 месеца безплатна поддръжка",
       calcOrderBtn: "Поръчайте по това изчисление →",
@@ -170,7 +170,7 @@
       service1Desc: "Корпоративни портали, многоезични платформи и специализирани уеб системи с най-новите стандарти за сигурност и бързина.",
       service2Title: "Онлайн магазини (E-Commerce)",
       service2Desc: "Мащабируеми интернет магазини на OpenCart и Drupal Commerce с картови плащания (Stripe, Борика, myPOS) и складов синхрон.",
-      service3Title: "SEO аудит & Скорост 99+",
+      service3Title: "SEO аудит & Скорост 0.4s",
       service3Desc: "Оптимизация на Core Web Vitals, почистване на кода и регистрация в търсачките за челни позиции в Google.",
       service4Title: "Редизайн & Модернизация",
       service4Desc: "Преобразуване на остарели сайтове в съвременни, стилни и удобни дигитални инструменти с висока конверсия.",
@@ -183,7 +183,7 @@
       vaultEyebrow: "Интерактивен стъклен сейф",
       vaultTitle: "Интерактивни папки на вашите решения: от код до гаранция",
       vaultDesc: "Движете курсора за 3D наклон на матовото стъкло. Кликнете, за да отворите папката и разгледате проектните файлове.",
-      vaultHint: "● Движете курсора за 3D наклон · Кликнете за отваряне · Натиснете + за добавяне на файл",
+      vaultHint: "● Движете курсора за 3D наклон · Докоснете папката, за да разгледате SLA договора и файловете",
       folder1Title: "E-Commerce Системи",
       folder2Title: "Портали на Drupal 11",
       folder3Title: "Договор & Гаранция",
@@ -231,13 +231,14 @@
       contactFormMsgPlaceholder: "Опишете ни вашия проект, целева аудитория или линк към съществуващ сайт...",
       contactFormGdpr: "Съгласен съм с обработката на личните ми данни (GDPR) за целите на запитването.",
       contactFormSubmit: "Изпратете запитване →",
+      contactReassurance: "⚡ Отговор до 2 часа в рамките на работния ден · Безплатен предварителен одит и консултация",
       contactSuccessToast: "Благодарим ви! Запитването е получено успешно. Ще се свържем с вас в рамките на 2 часа.",
 
       // Contact Options
       optDrupal: "Корпоративен сайт на Drupal 11",
       optShop: "Онлайн магазин (OpenCart / Headless)",
       optLanding: "Лендинг страница (Landing Page)",
-      optRedesign: "Редизайн и ускоряване (PageSpeed 99+)",
+      optRedesign: "Редизайн и ускоряване (PageSpeed 95–100)",
       optSeo: "SEO оптимизация и одит",
       optAi: "ШИ Чатбот и автоматизация",
 
@@ -275,14 +276,14 @@
       // Subpage Headers & Content
       servicesPageBadge: "Next-Gen Web Engineering",
       servicesPageTitle: "Full-Cycle Web Engineering & High Performance for EU",
-      servicesPageDesc: "From ultra-secure Drupal 11 enterprise portals to high-converting eCommerce with PageSpeed 99+ and zero code bloat.",
+      servicesPageDesc: "From ultra-secure Drupal 11 enterprise portals to high-converting eCommerce with PageSpeed 95–100 and zero code bloat.",
       servicesProcessTitle: "Our 4-Stage Engineering Process",
       step1Title: "01. Analysis & Architecture",
       step1Desc: "Business analysis, database schema modeling, and UX journey mapping.",
       step2Title: "02. Responsive UX/UI",
       step2Desc: "Bespoke clean interface design without heavy frameworks, tuned for high mobile conversion.",
       step3Title: "03. Clean Code & Speed",
-      step3Desc: "Development on Drupal 11 / OpenCart with guaranteed PageSpeed 99+ and strict security.",
+      step3Desc: "Development on Drupal 11 / OpenCart with target sub-second load times (PageSpeed 95–100) and strict security.",
       step4Title: "04. QA & 6-Mo Warranty",
       step4Desc: "Cybersecurity validation, stress testing, official EU contract, and 6-month free warranty.",
       servicesAllBtn: "Explore all services & tech stacks →",
@@ -338,13 +339,13 @@
       heroBubbleHint: "● CLICK THE BUBBLES. THEY POP.",
       heroAsteriskNote: "Engineering next-generation web platforms with speed by default.",
       heroTitle: "High-speed, conversion-driven websites engineered for business.",
-      heroDesc: "BTAB Digital Agency (Burgas, Bulgaria). We build modern, secure websites on Drupal 11, OpenCart, and Headless architectures with guaranteed PageSpeed 99+ and clean bloat-free code.",
+      heroDesc: "BTAB Digital Agency (Burgas, Bulgaria). We build modern, secure websites on Drupal 11, OpenCart, and Headless architectures with target sub-second load times (PageSpeed 95–100) and clean bloat-free code.",
       heroBtnCalc: "Calculate Cost →",
       heroBtnPortfolio: "View Case Studies",
 
       // Benchmark
       benchTitle: "Live Real-Time Speed Benchmark",
-      benchLive: "Google PageSpeed: 99+",
+      benchLive: "Google PageSpeed: 95–100",
       benchBtabTag: "BTAB Clean Code",
       benchBtabSub: "Instant 0.4s load",
       benchOtherTag: "Bloated Templates",
@@ -354,7 +355,7 @@
       benchScore: "PageSpeed Index",
 
       // Marquee Ribbons
-      marquee1: "DRUPAL 11 ARCHITECTURE ✱ 0.4s LOAD TIME ✱ GOOGLE PAGESPEED 99+ ✱ OPENCART 4 ✱ CLEAN CODE ✱ 6 MONTHS FREE WARRANTY ✱ BULGARIA & EU ✱",
+      marquee1: "DRUPAL 11 ARCHITECTURE ✱ 0.4s LOAD TIME ✱ GOOGLE PAGESPEED 95–100 ✱ OPENCART 4 ✱ CLEAN CODE ✱ 6 MONTHS FREE WARRANTY ✱ BULGARIA & EU ✱",
       marquee2: "✱ 10+ YEARS IN EU ✱ 150+ LAUNCHED SITES ✱ BURGAS · SOFIA · EU · WORLDWIDE ✱ OFFICIAL CONTRACT & GUARANTEE ✱ HIGH-PERFORMANCE WEB ✱",
 
       // Trust Stats
@@ -397,7 +398,7 @@
       calcEstimateTitle: "Estimated Investment",
       calcTimeLabel: "Estimated Timeline:",
       calcTimeDays: "business days",
-      calcBenefit1: "PageSpeed 95+ Guarantee",
+      calcBenefit1: "PageSpeed 95–100 Architecture Target",
       calcBenefit2: "Official EU Contract & Warranty",
       calcBenefit3: "6 Months Free Technical Support",
       calcOrderBtn: "Submit Brief With This Estimate →",
@@ -413,7 +414,7 @@
       service1Desc: "Corporate portals, multilingual enterprise systems, and custom web applications with strict security and speed compliance.",
       service2Title: "E-Commerce Development",
       service2Desc: "Scalable stores on OpenCart and Drupal Commerce with seamless card gateways (Stripe, Borica, myPOS) and warehouse sync.",
-      service3Title: "SEO Audit & Speed 99+",
+      service3Title: "SEO Audit & Sub-Second Speed",
       service3Desc: "Core Web Vitals acceleration, schema markup, and search index optimization to land in top Google rankings.",
       service4Title: "Redesign & Modernization",
       service4Desc: "Upgrading outdated websites into sleek, responsive digital instruments that increase conversions on all devices.",
@@ -426,7 +427,7 @@
       vaultEyebrow: "Interactive Glass Vault",
       vaultTitle: "Living Project Folders: From Clean Code to Enterprise Delivery",
       vaultDesc: "Hover to lean the frosted glass in 3D space. Click to fan out project deliverables, invoices, and specs.",
-      vaultHint: "● Hover to lean · Click to open · Press + to add file",
+      vaultHint: "● Hover to lean · Tap folder to inspect SLA contracts, source code & certificates",
       folder1Title: "E-Commerce Systems",
       folder2Title: "Drupal 11 Portals",
       folder3Title: "Contract & Warranty",
@@ -474,13 +475,14 @@
       contactFormMsgPlaceholder: "Describe your project goals, target audience, or paste a link to an existing website...",
       contactFormGdpr: "I agree to personal data processing (GDPR) for project consultation purposes.",
       contactFormSubmit: "Send Project Inquiry →",
+      contactReassurance: "⚡ Response within 2 business hours · Free preliminary audit & consultation included",
       contactSuccessToast: "Thank you! Your brief has been received. Our team will contact you within 2 business hours.",
 
       // Contact Options
       optDrupal: "Corporate Website on Drupal 11",
       optShop: "E-Commerce Store (OpenCart / Headless)",
       optLanding: "Landing Page (High-Conversion)",
-      optRedesign: "Redesign & Acceleration (PageSpeed 99+)",
+      optRedesign: "Redesign & Acceleration (PageSpeed 95–100)",
       optSeo: "SEO Optimization & Speed Audit",
       optAi: "AI Chatbot & Automation",
 
@@ -518,14 +520,14 @@
       // Subpage Headers & Content
       servicesPageBadge: "Інженерна розробка веб-систем",
       servicesPageTitle: "Повний спектр послуг для диджитал-масштабування в ЄС",
-      servicesPageDesc: "Від захищених корпоративних порталів на Drupal 11 до високонавантажених інтернет-магазинів із PageSpeed 99+ та чистим кодом без зайвого баласту.",
+      servicesPageDesc: "Від захищених корпоративних порталів на Drupal 11 до високонавантажених інтернет-магазинів із цільовою швидкістю до 0.4с (PageSpeed 95–100) та чистим кодом без зайвого баласту.",
       servicesProcessTitle: "Наш 4-етапний інженерний процес",
       step1Title: "01. Аналіз & Архітектура",
       step1Desc: "Аналіз бізнес-процесів, моделювання бази даних та проектування користувацьких сценаріїв.",
       step2Title: "02. UX/UI Проектування",
       step2Desc: "Індивідуальний дизайн без важких бібліотек, оптимізований під високу конверсію на смартфонах.",
       step3Title: "03. Чистий код & Швидкість",
-      step3Desc: "Розробка на Drupal 11 / OpenCart з показником PageSpeed 99+ та нульовим баластом.",
+      step3Desc: "Розробка на Drupal 11 / OpenCart з показником PageSpeed 95–100 та нульовим баластом.",
       step4Title: "04. Тестування & 6м Гарантія",
       step4Desc: "Стрес-тести, перевірка кібербезпеки, європейський договір та 6 місяців безкоштовної гарантії.",
       servicesAllBtn: "Дізнатися детальніше про всі послуги →",
@@ -556,7 +558,7 @@
       aboutOfficeDesc: "Наш головний офіс розташований у м. Бургас, ж.к. Лазур 130. Створюємо веб-системи для бізнесу в Болгарії, Великобританії, Німеччині та ЄС.",
 
       portfolioPageBadge: "Доведені результати",
-      portfolioPageTitle: "Портфоліо реалізованих систем та сайтів із PageSpeed 99+",
+      portfolioPageTitle: "Портфоліо реалізованих систем та сайтів із швидкістю 0.4с (PageSpeed 95–100)",
       portfolioPageDesc: "Ознайомтеся з реальними метриками, архітектурними рішеннями та результатами наших клієнтів.",
       portfolioAllBtn: "Переглянути всі кейси студії →",
 
@@ -581,13 +583,13 @@
       heroBubbleHint: "● КЛІКАЙТЕ НА КУЛЬКИ. ВОНИ ЛОПАЮТЬСЯ.",
       heroAsteriskNote: "Інженерія високонавантажених та надшвидких веб-систем.",
       heroTitle: "Надшвидкі сайти та веб-системи, що приносять клієнтів.",
-      heroDesc: "Веб-студія BTAB (Бургас, Болгарія). Розробляємо сучасні сайти на Drupal 11, OpenCart та Headless архітектурах із гарантованою швидкістю PageSpeed 99+, бездоганною безпекою та чистим кодом.",
+      heroDesc: "Веб-студія BTAB (Бургас, Болгарія). Розробляємо сучасні сайти на Drupal 11, OpenCart та Headless архітектурах із цільовою швидкістю до 0.4с (PageSpeed 95–100), бездоганною безпекою та чистим кодом.",
       heroBtnCalc: "Розрахувати вартість →",
       heroBtnPortfolio: "Переглянути кейси",
 
       // Benchmark
       benchTitle: "Тест швидкості в реальному часі",
-      benchLive: "Google PageSpeed: 99+",
+      benchLive: "Google PageSpeed: 95–100",
       benchBtabTag: "Чистий код BTAB",
       benchBtabSub: "Миттєве відкриття за 0.4с",
       benchOtherTag: "Важкі конструктори",
@@ -597,7 +599,7 @@
       benchScore: "Індекс PageSpeed",
 
       // Marquee Ribbons
-      marquee1: "АРХІТЕКТУРА DRUPAL 11 ✱ ШВИДКІСТЬ 0.4s ✱ GOOGLE PAGESPEED 99+ ✱ OPENCART 4 ✱ ЧИСТИЙ КОД ✱ 6 МІСЯЦІВ ГАРАНТІЇ ✱ БОЛГАРІЯ & ЄС ✱",
+      marquee1: "АРХІТЕКТУРА DRUPAL 11 ✱ ШВИДКІСТЬ 0.4s ✱ GOOGLE PAGESPEED 95–100 ✱ OPENCART 4 ✱ ЧИСТИЙ КОД ✱ 6 МІСЯЦІВ ГАРАНТІЇ ✱ БОЛГАРІЯ & ЄС ✱",
       marquee2: "✱ 10+ РОКІВ НА РИНКУ ЄС ✱ 150+ УСПІШНИХ САЙТІВ ✱ БУРГАС · СОФІЯ · ЄС · СВІТ ✱ ОФІЦІЙНИЙ ЄВРОПЕЙСЬКИЙ ДОГОВІР ✱",
 
       // Trust Stats
@@ -640,7 +642,7 @@
       calcEstimateTitle: "Орієнтовна вартість",
       calcTimeLabel: "Термін розробки:",
       calcTimeDays: "робочих днів",
-      calcBenefit1: "Гарантія швидкості PageSpeed 95+",
+      calcBenefit1: "Архітектурний стандарт PageSpeed 95+",
       calcBenefit2: "Офіційний європейський договір",
       calcBenefit3: "6 місяців безкоштовного супроводу",
       calcOrderBtn: "Замовити за цим розрахунком →",
@@ -656,7 +658,7 @@
       service1Desc: "Корпоративні портали, мультимовні платформи та індивідуальні веб-системи за найсучаснішими стандартами безпеки.",
       service2Title: "Інтернет-магазини (E-Commerce)",
       service2Desc: "Масштабовані онлайн-магазини на OpenCart та Drupal Commerce з підключенням еквайрингу (Stripe, Борика) та синхронізацією зі складом.",
-      service3Title: "SEO аудит та Швидкість 99+",
+      service3Title: "SEO аудит та Швидкість 0.4с",
       service3Desc: "Оптимізація Core Web Vitals, очищення коду та реєстрація в пошукових системах для перших позицій у Google.",
       service4Title: "Редизайн та Модернізація",
       service4Desc: "Перенесення застарілих сайтів на сучасні технології з підвищенням конверсії та повною адаптивністю під смартфони.",
@@ -669,7 +671,7 @@
       vaultEyebrow: "Інтерактивний скляний сейф",
       vaultTitle: "Живі папки ваших проектів: від коду до гарантійного акту",
       vaultDesc: "Наведіть курсор для 3D нахилу матового скла. Клікніть, щоб відкрити папку та переглянути проектні файли й кейси.",
-      vaultHint: "● Наведіть для 3D нахилу · Клікніть для відкриття · Тисніть + щоб додати файл",
+      vaultHint: "● Наведіть для 3D нахилу · Торкніться папки, щоб переглянути SLA договір та сертифікати",
       folder1Title: "E-Commerce Системи",
       folder2Title: "Портали на Drupal 11",
       folder3Title: "Договір та Гарантія",
@@ -717,13 +719,14 @@
       contactFormMsgPlaceholder: "Опишіть ваш проект, цільову аудиторію або додайте посилання на діючий сайт...",
       contactFormGdpr: "Я погоджуюся на обробку персональних даних (GDPR) з метою консультації.",
       contactFormSubmit: "Надіслати запит →",
+      contactReassurance: "⚡ Відповідь протягом 2 годин у робочий час · Безкоштовний попередній аудит та консультація",
       contactSuccessToast: "Дякуємо! Ваша заявка успішно надіслана. Наш фахівець зв'яжеться з вами протягом 2 годин.",
 
       // Contact Options
       optDrupal: "Корпоративний сайт на Drupal 11",
       optShop: "Інтернет-магазин (OpenCart / Headless)",
       optLanding: "Лендінг сторінка (Landing Page)",
-      optRedesign: "Редизайн та прискорення (PageSpeed 99+)",
+      optRedesign: "Редизайн та прискорення (PageSpeed 95–100)",
       optSeo: "SEO оптизація та аудит",
       optAi: "ШІ-чатбот та автоматизація",
 
@@ -761,14 +764,14 @@
       // Subpage Headers & Content
       servicesPageBadge: "Инженерная разработка веб-систем",
       servicesPageTitle: "Полный спектр услуг для масштабирования бизнеса в ЕС",
-      servicesPageDesc: "От защищенных корпоративных порталов на Drupal 11 до высоконагруженных интернет-магазинов с PageSpeed 99+ и чистым кодом.",
+      servicesPageDesc: "От защищенных корпоративных порталов на Drupal 11 до высоконагруженных интернет-магазинов с целевой скоростью до 0.4с (PageSpeed 95–100) и чистым кодом.",
       servicesProcessTitle: "Наш 4-этапный инженерный процесс",
       step1Title: "01. Анализ & Архитектура",
       step1Desc: "Анализ бизнес-процессов, проектирование структуры базы данных и сайта.",
       step2Title: "02. UX/UI Проектирование",
       step2Desc: "Индивидуальный дизайн без тяжелых библиотек, адаптированный под мобильные устройства.",
       step3Title: "03. Чистый код & Скорость",
-      step3Desc: "Разработка на Drupal 11 / OpenCart с гарантией PageSpeed 99+ и чистым кодом.",
+      step3Desc: "Разработка на Drupal 11 / OpenCart с целевой скоростью до 0.4с (PageSpeed 95–100) и чистым кодом.",
       step4Title: "04. Тестирование & 6м Гарантия",
       step4Desc: "Стресс-тесты, проверка безопасности, официальный договор и 6 месяцев гарантии.",
       servicesAllBtn: "Узнать подробнее обо всех услугах →",
@@ -799,7 +802,7 @@
       aboutOfficeDesc: "Наш главный офис расположен в г. Бургас, ж.к. Лазур 130. Создаем решения для клиентов из Болгарии, Великобритании, Германии и ЕС.",
 
       portfolioPageBadge: "Доказанные результаты",
-      portfolioPageTitle: "Портфолио реализованных систем и сайтов с PageSpeed 99+",
+      portfolioPageTitle: "Портфолио реализованных систем и сайтов со скоростью 0.4с (PageSpeed 95–100)",
       portfolioPageDesc: "Ознакомьтесь с реальными метриками, архитектурой и результатами, внедренными для клиентов.",
       portfolioAllBtn: "Смотреть все кейсы студии →",
 
@@ -824,13 +827,13 @@
       heroBubbleHint: "● КЛИКАЙТЕ ПО ШАРАМ. ОНИ ЛОПАЮТСЯ.",
       heroAsteriskNote: "Инженерия надежных и молниеносных веб-систем для бизнеса.",
       heroTitle: "Быстрые, оптимизированные сайты для роста вашего бизнеса.",
-      heroDesc: "Веб-студия BTAB (Бургас, Болгария). Разрабатываем надежные сайты на Drupal 11, OpenCart и современных CMS с гарантированной скоростью PageSpeed 99+ и чистым кодом.",
+      heroDesc: "Веб-студия BTAB (Бургас, Болгария). Разрабатываем надежные сайты на Drupal 11, OpenCart и современных CMS с целевой скоростью до 0.4с (PageSpeed 95–100) и чистым кодом.",
       heroBtnCalc: "Рассчитать стоимость →",
       heroBtnPortfolio: "Посмотреть работы",
 
       // Benchmark
       benchTitle: "Тест скорости в реальном времени",
-      benchLive: "Google PageSpeed: 99+",
+      benchLive: "Google PageSpeed: 95–100",
       benchBtabTag: "Чистый код BTAB",
       benchBtabSub: "Молниеносные 0.4 сек",
       benchOtherTag: "Обычные шаблоны",
@@ -840,7 +843,7 @@
       benchScore: "Индекс PageSpeed",
 
       // Marquee Ribbons
-      marquee1: "АРХИТЕКТУРА DRUPAL 11 ✱ СКОРОСТЬ 0.4s ✱ GOOGLE PAGESPEED 99+ ✱ OPENCART 4 ✱ ЧИСТЫЙ КОД ✱ 6 МЕСЯЦЕВ ГАРАНТИИ ✱ БОЛГАРИЯ & ЕС ✱",
+      marquee1: "АРХИТЕКТУРА DRUPAL 11 ✱ СКОРОСТЬ 0.4s ✱ GOOGLE PAGESPEED 95–100 ✱ OPENCART 4 ✱ ЧИСТЫЙ КОД ✱ 6 МЕСЯЦЕВ ГАРАНТИИ ✱ БОЛГАРИЯ & ЕС ✱",
       marquee2: "✱ 10+ ЛЕТ ОПЫТА В ЕС ✱ 150+ ВЫПОЛНЕННЫХ САЙТОВ ✱ БУРГАС · СОФИЯ · ЕС · МИР ✱ ОФИЦИАЛЬНЫЙ ДОГОВОР И ГАРАНТИЯ ✱",
 
       // Trust Stats
@@ -883,7 +886,7 @@
       calcEstimateTitle: "Ориентировочная стоимость",
       calcTimeLabel: "Срок реализации:",
       calcTimeDays: "рабочих дней",
-      calcBenefit1: "Гарантия PageSpeed 95+",
+      calcBenefit1: "Архитектурный стандарт PageSpeed 95+",
       calcBenefit2: "Официальный договор в ЕС",
       calcBenefit3: "6 месяцев гарантийной поддержки",
       calcOrderBtn: "Заказать по этой оценке →",
@@ -899,7 +902,7 @@
       service1Desc: "Корпоративные порталы, мультиязычные платформы и веб-системы по новейшим стандартам безопасности и производительности.",
       service2Title: "Интернет-магазины (E-Commerce)",
       service2Desc: "Масштабируемые онлайн-магазины на OpenCart и Drupal Commerce с приемом карт (Stripe, Борика) и синхронизацией со складом.",
-      service3Title: "SEO аудит & Скорость 99+",
+      service3Title: "SEO аудит & Скорость 0.4с",
       service3Desc: "Оптимизация Core Web Vitals, очистка кода и регистрация в поисковых системах для первых мест в Google.",
       service4Title: "Редизайн & Модернизация",
       service4Desc: "Превращение устаревших сайтов в стильные, адаптивные инструменты с высокой конверсией на смартфонах.",
@@ -912,7 +915,7 @@
       vaultEyebrow: "Интерактивный стеклянный сейф",
       vaultTitle: "Живые папки ваших проектов: от кода до гарантийных актов",
       vaultDesc: "Наведите курсор для 3D наклона матового стекла. Кликните, чтобы открыть папку и просмотреть проектные файлы.",
-      vaultHint: "● Наведите для 3D наклона · Кликните для открытия · Нажмите + для добавления файла",
+      vaultHint: "● Наведите для 3D наклона · Нажмите на папку, чтобы открыть SLA договор и сертификаты",
       folder1Title: "E-Commerce Системы",
       folder2Title: "Порталы на Drupal 11",
       folder3Title: "Договор и Гарантия",
@@ -960,13 +963,14 @@
       contactFormMsgPlaceholder: "Опишите ваш проект, целевую аудиторию или ссылку на действующий сайт...",
       contactFormGdpr: "Я подтверждаю свое согласие на обработку персональных данных (GDPR).",
       contactFormSubmit: "Отправить сообщение →",
+      contactReassurance: "⚡ Ответ в течение 2 часов в рабочее время · Бесплатный предварительный аудит и консультация",
       contactSuccessToast: "Спасибо! Сообщение успешно отправлено. Мы свяжемся с вами в течение 2 часов.",
 
       // Contact Options
       optDrupal: "Корпоративный сайт на Drupal 11",
       optShop: "Интернет-магазин (OpenCart / Headless)",
       optLanding: "Лендинг пейдж (Landing Page)",
-      optRedesign: "Редизайн и ускорение (PageSpeed 99+)",
+      optRedesign: "Редизайн и ускорение (PageSpeed 95–100)",
       optSeo: "SEO оптимизация и аудит",
       optAi: "ИИ-чатбот и автоматизация",
 
@@ -1302,6 +1306,68 @@
         UA: "3 мови / Миттєвий бриф та розрахунок",
         RU: "3 языка / Мгновенный бриф и расчет"
       }
+    },
+    {
+      id: "yachting-burgas",
+      category: "services",
+      img: "assets/images/portfolio/yachting-burgas.jpg",
+      year: "Burgas & Sozopol",
+      cms: "Drupal 11 / Twig 3 / Booking Engine",
+      titles: {
+        BG: "Black Sea Yachting — Чартер и круизи",
+        EN: "Black Sea Yachting — Luxury Charters",
+        UA: "Black Sea Yachting — Оренда яхт та круїзи",
+        RU: "Black Sea Yachting — Аренда яхт и круизы"
+      },
+      tags: {
+        BG: "Резервации",
+        EN: "Booking Engine",
+        UA: "Бронювання",
+        RU: "Бронирование"
+      },
+      descs: {
+        BG: "Система за онлайн резервации на ветроходни яхти и лодки по Черноморието с интерактивен календар за наличност и депозити.",
+        EN: "Online charter booking platform for Black Sea yachts featuring interactive availability calendar and instant deposit checkout.",
+        UA: "Платформа онлайн-бронювання яхт та катерів із інтерактивним календарем зайнятості та прийомом авансових платежів.",
+        RU: "Платформа онлайн-бронирования яхт и катеров с интерактивным календарем доступности и онлайн-предоплатой."
+      },
+      metrics: {
+        BG: "+54% директни резервации без посредници",
+        EN: "+54% direct booking increase without OTAs",
+        UA: "+54% прямих бронювань без посередників",
+        RU: "+54% прямых бронирований без посредников"
+      }
+    },
+    {
+      id: "nordic-timber",
+      category: "shop",
+      img: "assets/images/portfolio/nordic-timber.jpg",
+      year: "EU / Germany",
+      cms: "OpenCart 4 / B2B Export Portal",
+      titles: {
+        BG: "Nordic Timber EU — B2B Експорт на дървесина",
+        EN: "Nordic Timber EU — B2B Wood Export",
+        UA: "Nordic Timber EU — B2B Експорт пиломатеріалів",
+        RU: "Nordic Timber EU — B2B Экспорт древесины"
+      },
+      tags: {
+        BG: "B2B Платформа",
+        EN: "B2B E-Commerce",
+        UA: "B2B Платформа",
+        RU: "B2B Платформа"
+      },
+      descs: {
+        BG: "Оптови онлайн каталог с динамично калкулиране на логистични разходи и ДДС по европейските директиви за Германия и Скандинавия.",
+        EN: "Wholesale B2B export catalog featuring automated EU VAT calculation, dynamic freight quoting, and multi-currency invoicing.",
+        UA: "Оптовий експортний каталог із динамічним розрахунком логістики, ПДВ за директивами ЄС та мультивалютними рахунками.",
+        RU: "Оптовый экспортный каталог с автоматическим расчетом логистики, европейского НДС и мультивалютными инвойсами."
+      },
+      metrics: {
+        BG: "€1.2M оборот през първите 8 месеца",
+        EN: "€1.2M B2B transaction volume in 8 months",
+        UA: "€1.2M B2B оборот за перші 8 місяців",
+        RU: "€1.2M B2B оборот за первые 8 месяцев"
+      }
     }
   ];
 
@@ -1432,9 +1498,15 @@
     if (!grid) return;
 
     grid.innerHTML = '';
-    const filtered = filter === 'all' 
+    let filtered = filter === 'all' 
       ? portfolioItems 
       : portfolioItems.filter(item => item.category === filter);
+
+    // Support data-limit attribute (e.g. data-limit="6" on index.html)
+    const limit = parseInt(grid.dataset.limit, 10);
+    if (!isNaN(limit) && limit > 0 && filter === 'all') {
+      filtered = filtered.slice(0, limit);
+    }
 
     filtered.forEach((item, index) => {
       const card = document.createElement('div');
@@ -1445,6 +1517,7 @@
       const title = item.titles[currentLang] || item.titles.EN;
       const tag = item.tags[currentLang] || item.tags.EN;
       const desc = item.descs[currentLang] || item.descs.EN;
+      const metric = item.metrics[currentLang] || item.metrics.EN;
 
       card.innerHTML = `
         <span class="portfolio-card-issue-tag">#${issueNum}</span>
@@ -1457,6 +1530,9 @@
         <div class="portfolio-content">
           <h3 class="portfolio-card-title">${title}</h3>
           <p class="portfolio-card-desc">${desc}</p>
+          <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.22); border-radius: 8px; padding: 6px 12px; margin-bottom: 14px; font-size: 0.82rem; color: var(--accent-emerald); font-weight: 700; display: inline-flex; align-items: center; gap: 6px;">
+            <span>📈</span> <span>${metric}</span>
+          </div>
           <div class="portfolio-meta">
             <span><strong>${item.cms}</strong></span>
             <span>${item.year}</span>
@@ -1928,28 +2004,28 @@
       }
     },
 
-    // 6. Core Web Vitals 99+
+    // 6. Core Web Vitals 95–100
     "speed-audit": {
       icon: "⚡",
       badge: {
-        BG: "PageSpeed 99+ Стандарт",
-        EN: "PageSpeed 99+ Standard",
-        UA: "Стандарт PageSpeed 99+",
-        RU: "Стандарт PageSpeed 99+"
+        BG: "PageSpeed 95–100 Стандарт",
+        EN: "PageSpeed 95–100 Standard",
+        UA: "Стандарт PageSpeed 95–100",
+        RU: "Стандарт PageSpeed 95–100"
       },
       titles: {
         BG: "Регламент за максимална скорост и Google Core Web Vitals",
-        EN: "Google Core Web Vitals 99+ Performance Specification",
+        EN: "Google Core Web Vitals 95–100 Performance Specification",
         UA: "Регламент максимальної швидкості та Google Core Web Vitals",
         RU: "Регламент максимальной скорости и Google Core Web Vitals"
       },
       tag: "Продуктивність",
       sub: "Миттєве відкриття за 0.4 секунди для перших місць у Google",
       intro: {
-        BG: "Скоростта на зареждане е ключов фактор за класиране в Google и задържане на потребителите. Ние оптимизираме всеки байт, скрипт и изображение за оценка 99+ в Google PageSpeed.",
-        EN: "Loading speed directly dictates Google organic search rankings and checkout conversions. We obsessively profile every byte, script, and image to guarantee scores of 99+ in PageSpeed Insights.",
-        UA: "Швидкість завантаження є ключовим фактором для виходу в ТОП Google та високої конверсії. Ми оптимізуємо кожен байт коду, скрипти та зображення для оцінки 99+ у Google PageSpeed.",
-        RU: "Скорость загрузки напрямую влияет на позиции в Google и конверсию. Мы оптимизируем каждый байт, скрипты и медиафайлы для оценки 99+ в Google PageSpeed."
+        BG: "Скоростта на зареждане е ключов фактор за класиране в Google и задържане на потребителите. Ние оптимизираме всеки байт, скрипт и изображение за целева оценка 95–100 в Google PageSpeed.",
+        EN: "Loading speed directly dictates Google organic search rankings and checkout conversions. We obsessively profile every byte, script, and image to target scores of 95–100 in PageSpeed Insights.",
+        UA: "Швидкість завантаження є ключовим фактором для виходу в ТОП Google та високої конверсії. Ми оптимізуємо кожен байт коду, скрипти та зображення для цільової оцінки 95–100 у Google PageSpeed.",
+        RU: "Скорость загрузки напрямую влияет на позиции в Google и конверсию. Мы оптимизируем каждый байт, скрипты и медиафайлы для целевой оценки 95–100 в Google PageSpeed."
       },
       clauses: {
         UA: [
@@ -2067,7 +2143,7 @@
       files: [
         { name: "Burgas Business Hub", meta: "Drupal 11 Portal", caseId: "business-hub", docId: null },
         { name: "Twig 3 Design Tokens", meta: "BEM Components", caseId: null, docId: "twig-design" },
-        { name: "Core Web Vitals 99+", meta: "Speed Audit", caseId: null, docId: "speed-audit" },
+        { name: "Core Web Vitals 95–100", meta: "Speed Audit", caseId: null, docId: "speed-audit" },
         { name: "GDPR Compliance 2026", meta: "EU Security Spec", caseId: null, docId: "gdpr-security" }
       ]
     },
