@@ -54,12 +54,12 @@
       <!-- Desktop Navigation Menu -->
       <nav>
         <ul class="nav-menu" id="nav-menu">
-          <li><a href="#services" class="nav-link" data-i18n="navServices">Услуги</a></li>
-          <li><a href="#vault" class="nav-link" data-i18n="navVault">Сейф</a></li>
-          <li><a href="#portfolio" class="nav-link" data-i18n="navPortfolio">Портфолио</a></li>
-          <li><a href="#calculator" class="nav-link" data-i18n="navCalculator">Калкулатор</a></li>
-          <li><a href="#why-us" class="nav-link" data-i18n="navWhyUs">Предимства</a></li>
-          <li><a href="#contact" class="nav-link" data-i18n="navContacts">Контакти</a></li>
+          <li><a href="index.html" class="nav-link active" data-i18n="navHome">Начало</a></li>
+          <li><a href="services.html" class="nav-link" data-i18n="navServices">Услуги</a></li>
+          <li><a href="vault.html" class="nav-link" data-i18n="navVault">Сейф & Гаранции</a></li>
+          <li><a href="portfolio.html" class="nav-link" data-i18n="navPortfolio">Портфолио</a></li>
+          <li><a href="about.html" class="nav-link" data-i18n="navAbout">За нас</a></li>
+          <li><a href="contacts.html" class="nav-link" data-i18n="navContacts">Контакти</a></li>
         </ul>
       </nav>
 
@@ -81,7 +81,7 @@
           <button type="button" class="lang-btn" data-lang="RU">RU</button>
         </div>
 
-        <a href="#contact" class="btn btn-primary" style="padding: 9px 18px; font-size: 0.85rem;" data-i18n="navDiscuss">
+        <a href="contacts.html" class="btn btn-primary" style="padding: 9px 18px; font-size: 0.85rem;" data-i18n="navDiscuss">
           Започнете проект →
         </a>
 
@@ -518,6 +518,12 @@
           </a>
         </div>
       </div>
+
+      <div style="text-align: center; margin-top: 48px;">
+        <a href="services.html" class="btn btn-outline" style="padding: 14px 28px; font-size: 0.95rem; border-color: var(--accent-primary); color: var(--text-main);" data-i18n="servicesAllBtn">
+          Вижте детайли за всички услуги →
+        </a>
+      </div>
     </div>
   </section>
 
@@ -534,9 +540,15 @@
         <!-- Rendered reactively via app.js with procedural liquid noise and full 3D tilt -->
       </div>
 
-      <p style="text-align: center; margin-top: 40px; font-family: ui-monospace, 'SF Mono', monospace; font-size: 0.76rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-dim);" data-i18n="vaultHint">
+      <p style="text-align: center; margin-top: 36px; font-family: ui-monospace, 'SF Mono', monospace; font-size: 0.76rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-dim);" data-i18n="vaultHint">
         Hover to lean · Click to open · + to add
       </p>
+
+      <div style="text-align: center; margin-top: 32px;">
+        <a href="vault.html" class="btn btn-outline" style="padding: 14px 28px; font-size: 0.95rem; border-color: var(--accent-primary); color: var(--text-main);" data-i18n="vaultAllBtn">
+          Отворете пълния сейф на гаранциите →
+        </a>
+      </div>
     </div>
   </section>
 
@@ -560,6 +572,12 @@
       <!-- Dynamic Portfolio Grid -->
       <div class="portfolio-grid" id="portfolio-grid">
         <!-- Rendered reactively via app.js with #01, #02... badges and full localization -->
+      </div>
+
+      <div style="text-align: center; margin-top: 48px;">
+        <a href="portfolio.html" class="btn btn-outline" style="padding: 14px 28px; font-size: 0.95rem; border-color: var(--accent-primary); color: var(--text-main);" data-i18n="portfolioAllBtn">
+          Вижте цялото портфолио на студиото →
+        </a>
       </div>
     </div>
   </section>
@@ -750,21 +768,23 @@
         <div>
           <div class="footer-col-title" data-i18n="footerColServices">Услуги</div>
           <ul class="footer-links">
-            <li><a href="#services" data-i18n="service1Title">Разработка на Drupal 11</a></li>
-            <li><a href="#services" data-i18n="service2Title">Онлайн магазини (E-Commerce)</a></li>
-            <li><a href="#services" data-i18n="service3Title">SEO аудит & Скорост 99+</a></li>
-            <li><a href="#services" data-i18n="service4Title">Редизайн & Модернизация</a></li>
-            <li><a href="#services" data-i18n="service5Title">ШИ Асистенти & Чатботове</a></li>
+            <li><a href="services.html" data-i18n="service1Title">Разработка на Drupal 11</a></li>
+            <li><a href="services.html" data-i18n="service2Title">Онлайн магазини (E-Commerce)</a></li>
+            <li><a href="services.html" data-i18n="service3Title">SEO аудит & Скорост 99+</a></li>
+            <li><a href="services.html" data-i18n="service4Title">Редизайн & Модернизация</a></li>
+            <li><a href="services.html" data-i18n="service5Title">ШИ Асистенти & Чатботове</a></li>
           </ul>
         </div>
 
         <div>
           <div class="footer-col-title" data-i18n="footerColNav">Навигация</div>
           <ul class="footer-links">
-            <li><a href="#portfolio" data-i18n="navPortfolio">Портфолио</a></li>
-            <li><a href="#calculator" data-i18n="navCalculator">Калкулатор</a></li>
-            <li><a href="#why-us" data-i18n="navWhyUs">Предимства</a></li>
-            <li><a href="#contact" data-i18n="navContacts">Контакти</a></li>
+            <li><a href="index.html" data-i18n="navHome">Начало</a></li>
+            <li><a href="services.html" data-i18n="navServices">Услуги</a></li>
+            <li><a href="vault.html" data-i18n="navVault">Сейф & Гаранции</a></li>
+            <li><a href="portfolio.html" data-i18n="navPortfolio">Портфолио</a></li>
+            <li><a href="about.html" data-i18n="navAbout">За нас</a></li>
+            <li><a href="contacts.html" data-i18n="navContacts">Контакти</a></li>
           </ul>
         </div>
 
@@ -773,7 +793,7 @@
           <ul class="footer-links">
             <li><a href="tel:+359879198455">+359 879 198 455</a></li>
             <li><a href="mailto:info@btab.eu">info@btab.eu</a></li>
-            <li><span>Бургас, ж.к. Лазур 130</span></li>
+            <li><a href="contacts.html">Бургас, ж.к. Лазур 130</a></li>
             <li><a href="https://api.whatsapp.com/send?phone=359879198455" target="_blank" rel="noreferrer">WhatsApp чат</a></li>
             <li><a href="https://t.me/btab_eu" target="_blank" rel="noreferrer">Telegram чат</a></li>
           </ul>

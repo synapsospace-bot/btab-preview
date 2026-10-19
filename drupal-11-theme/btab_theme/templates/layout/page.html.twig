@@ -1,0 +1,74 @@
+{#
+/**
+ * @file
+ * Default page template for internal pages in BTAB Modern theme for Drupal 11.
+ */
+#}
+
+<header class="navbar" id="top-navbar">
+  <div class="container navbar-inner">
+    <a href="{{ front_page }}" class="brand-link" title="{{ 'BTAB Digital Agency'|t }}">
+      <div class="brand-logo-wrap">
+        <svg viewBox="0 0 140 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="140" height="92" rx="10" fill="#0E1116"/>
+          <text x="12" y="65" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="800" fill="#F3F4F6">B</text>
+          <text x="46" y="65" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="800" fill="#FF334B">TAB</text>
+        </svg>
+      </div>
+      <div class="brand-text">
+        <span class="brand-title">BTAB<span>.</span></span>
+        <span class="brand-subtitle">Digital Studio</span>
+      </div>
+    </a>
+
+    <nav>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="{{ front_page }}" class="nav-link" data-i18n="navHome">{{ 'Home'|t }}</a></li>
+        <li><a href="{{ base_path }}services" class="nav-link" data-i18n="navServices">{{ 'Services'|t }}</a></li>
+        <li><a href="{{ base_path }}vault" class="nav-link" data-i18n="navVault">{{ 'Vault & SLA'|t }}</a></li>
+        <li><a href="{{ base_path }}portfolio" class="nav-link" data-i18n="navPortfolio">{{ 'Portfolio'|t }}</a></li>
+        <li><a href="{{ base_path }}about" class="nav-link" data-i18n="navAbout">{{ 'About'|t }}</a></li>
+        <li><a href="{{ base_path }}contacts" class="nav-link" data-i18n="navContacts">{{ 'Contacts'|t }}</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="lang-switcher">
+        <button type="button" class="lang-btn active" data-lang="BG">BG</button>
+        <button type="button" class="lang-btn" data-lang="EN">EN</button>
+        <button type="button" class="lang-btn" data-lang="UA">UA</button>
+        <button type="button" class="lang-btn" data-lang="RU">RU</button>
+      </div>
+      <a href="{{ front_page }}#contact" class="btn btn-primary" style="padding: 9px 18px; font-size: 0.85rem;">
+        {{ 'Start Project'|t }}
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="main-content" style="padding-top: 130px; padding-bottom: 80px; min-height: 70vh;">
+  <div class="container">
+    {% if page.highlighted %}
+      <div class="highlighted-region">{{ page.highlighted }}</div>
+    {% endif %}
+
+    {% if breadcrumb %}
+      <div class="breadcrumb-wrap" style="margin-bottom: 24px; font-size: 0.85rem; color: var(--text-dim);">
+        {{ breadcrumb }}
+      </div>
+    {% endif %}
+
+    <div class="internal-content-box" style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 48px;">
+      {{ page.content }}
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom">
+      <div>Copyright © 2016–{{ current_year|default('2026') }} BTAB.EU · All rights reserved.</div>
+      <div>Всички права запазени. Изработено с прецизност от BTAB.</div>
+    </div>
+  </div>
+</footer>

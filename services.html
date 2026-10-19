@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Услуги | BTAB — Дигитално Студио Бургас (Drupal 11, E-Commerce, SEO 99+)</title>
+  <meta name="description" content="Пълен спектър от дигитални инженерни услуги: разработка на Drupal 11, онлайн магазини, SEO оптимизация за скорост 0.4s и AI ботове в България и ЕС.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+</head>
+<body data-palette="cyan">
+
+  <!-- ================= HEADER NAVIGATION ================= -->
+  <header class="site-header">
+    <div class="container header-container">
+      <!-- Brand Wordmark Logo -->
+      <a href="index.html" class="brand-link">
+        <div class="brand-logo-wrap">
+          <svg viewBox="0 0 140 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="140" height="92" rx="10" fill="#0E1116"/>
+            <text x="12" y="65" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="800" fill="#F3F4F6">B</text>
+            <text x="46" y="65" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="800" fill="#00f0ff">TAB</text>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">BTAB<span>.</span></span>
+          <span class="brand-subtitle" data-i18n="brandSubtitle">Digital Studio</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link" data-i18n="navHome">Начало</a></li>
+          <li><a href="services.html" class="nav-link active" data-i18n="navServices">Услуги</a></li>
+          <li><a href="vault.html" class="nav-link" data-i18n="navVault">Сейф & Гаранции</a></li>
+          <li><a href="portfolio.html" class="nav-link" data-i18n="navPortfolio">Портфолио</a></li>
+          <li><a href="about.html" class="nav-link" data-i18n="navAbout">За нас</a></li>
+          <li><a href="contacts.html" class="nav-link" data-i18n="navContacts">Контакти</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Items & Language Switcher & Palette Switcher -->
+      <div class="nav-actions">
+        <!-- 4 Color Theme Palette Dots -->
+        <div class="palette-dots-wrap" title="Theme Palette">
+          <button type="button" class="palette-dot-btn cyan" data-palette="cyan" title="Cyan Palette"></button>
+          <button type="button" class="palette-dot-btn violet" data-palette="violet" title="Violet Palette"></button>
+          <button type="button" class="palette-dot-btn emerald" data-palette="emerald" title="Emerald Palette"></button>
+          <button type="button" class="palette-dot-btn sunset" data-palette="sunset" title="Sunset Palette"></button>
+        </div>
+
+        <!-- Language Switcher -->
+        <div class="lang-switcher" aria-label="Language selection">
+          <button type="button" class="lang-btn active" data-lang="BG">BG</button>
+          <button type="button" class="lang-btn" data-lang="EN">EN</button>
+          <button type="button" class="lang-btn" data-lang="UA">UA</button>
+          <button type="button" class="lang-btn" data-lang="RU">RU</button>
+        </div>
+
+        <a href="contacts.html" class="btn btn-primary" style="padding: 9px 18px; font-size: 0.85rem;" data-i18n="navDiscuss">
+          Започнете проект →
+        </a>
+
+        <button type="button" class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= SUBPAGE HERO ================= -->
+  <section class="subpage-hero">
+    <div class="container">
+      <div class="breadcrumb-nav">
+        <a href="index.html" data-i18n="breadcrumbHome">Начало</a>
+        <span>/</span>
+        <span data-i18n="breadcrumbServices">Услуги</span>
+      </div>
+      <div class="badge-bubble" style="margin-bottom: 18px;" data-i18n="servicesPageBadge">
+        Инженерна разработка на уеб системи
+      </div>
+      <h1 class="subpage-title text-gradient" data-i18n="servicesPageTitle">
+        Пълен спектър от услуги за дигитален растеж в ЕС
+      </h1>
+      <p class="subpage-desc" data-i18n="servicesPageDesc">
+        От защитени корпоративни портали на Drupal 11 до високонатоварени онлайн магазини с гарантирана скорост PageSpeed 99+ и чист код без излишен баласт.
+      </p>
+
+      <!-- 4-Stage Engineering Process -->
+      <div class="process-steps-grid">
+        <div class="process-step-card">
+          <div class="process-step-num">01</div>
+          <div class="process-step-title" data-i18n="step1Title">01. Анализ & Архитектура</div>
+          <p class="process-step-desc" data-i18n="step1Desc">Анализ на бизнес процесите, изграждане на информационна архитектура и схема на данните.</p>
+        </div>
+
+        <div class="process-step-card">
+          <div class="process-step-num">02</div>
+          <div class="process-step-title" data-i18n="step2Title">02. UX/UI Проектиране</div>
+          <p class="process-step-desc" data-i18n="step2Desc">Индивидуален дизайн без тежки библиотеки, адаптивен за всички екрани и мобилни устройства.</p>
+        </div>
+
+        <div class="process-step-card">
+          <div class="process-step-num">03</div>
+          <div class="process-step-title" data-i18n="step3Title">03. Чист код & Оптимизация</div>
+          <p class="process-step-desc" data-i18n="step3Desc">Разработка на Drupal 11 / OpenCart с PageSpeed 99+, семантичен код и нулево забавяне.</p>
+        </div>
+
+        <div class="process-step-card">
+          <div class="process-step-num">04</div>
+          <div class="process-step-title" data-i18n="step4Title">04. Тестване & 6м Гаранция</div>
+          <p class="process-step-desc" data-i18n="step4Desc">Стрес-тестове, проверка за киберсигурност, официален договор и 6 месеца безплатен съпорт.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= DETAILED SERVICES SECTION ================= -->
+  <section class="section">
+    <div class="container">
+      
+      <!-- Service 1: Drupal 11 -->
+      <div class="service-full-card">
+        <div class="service-full-header">
+          <div>
+            <span class="badge-bubble" style="margin-bottom: 10px;">Enterprise CMS</span>
+            <h2 style="font-size: 1.8rem; font-weight: 700; color: var(--text-main);" data-i18n="service1Title">Разработка на Drupal 11</h2>
+          </div>
+          <a href="contacts.html" class="btn btn-primary" data-i18n="serviceBtnConsult">Заявете консултация →</a>
+        </div>
+        <p style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.7;" data-i18n="service1Desc">
+          Корпоративни портали, многоезични платформи и специализирани уеб системи с най-новите стандарти за сигурност и бързина.
+        </p>
+        <div class="service-full-points">
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Модулна архитектура с пълна поддръжка на Drupal 11 и Twig 3 templates</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Вградена защита от SQL injections, XSS и CSRF атаки на банково ниво</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Гъвкава таксономия и неограничени видове съдържание (Custom Content Types)</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Чист кеш мениджмънт: Varnish, Redis и Cloudflare интеграция за отговор под 0.3s</span>
+          </div>
+        </div>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+          <span class="calc-tag">Drupal 11</span>
+          <span class="calc-tag">PHP 8.3</span>
+          <span class="calc-tag">PostgreSQL / MySQL</span>
+          <span class="calc-tag">Redis Cache</span>
+          <span class="calc-tag">Docker Container</span>
+        </div>
+      </div>
+
+      <!-- Service 2: E-Commerce -->
+      <div class="service-full-card">
+        <div class="service-full-header">
+          <div>
+            <span class="badge-bubble" style="margin-bottom: 10px;">E-Commerce Engine</span>
+            <h2 style="font-size: 1.8rem; font-weight: 700; color: var(--text-main);" data-i18n="service2Title">Онлайн магазини (E-Commerce)</h2>
+          </div>
+          <a href="contacts.html" class="btn btn-primary" data-i18n="serviceBtnConsult">Заявете консултация →</a>
+        </div>
+        <p style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.7;" data-i18n="service2Desc">
+          Мащабируеми интернет магазини на OpenCart и Drupal Commerce с картови плащания (Stripe, Борика, myPOS) и складов синхрон.
+        </p>
+        <div class="service-full-points">
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Едностъпков чекаут (One-Step Checkout) с до 40% по-висока конверсия</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Интеграция с куриери в България (Спиди, Еконт) и куриерски мрежи в ЕС (DPD, DHL)</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Автоматично издаване на фактури, синхронизация с ERP складови системи</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Поддръжка на мултивалутност (BGN, EUR, USD, GBP) и многоезични каталози</span>
+          </div>
+        </div>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+          <span class="calc-tag">OpenCart 4</span>
+          <span class="calc-tag">Drupal Commerce</span>
+          <span class="calc-tag">Stripe Payments</span>
+          <span class="calc-tag">Борика / myPOS</span>
+          <span class="calc-tag">ERP Webhooks</span>
+        </div>
+      </div>
+
+      <!-- Service 3: SEO Audit & Speed 99+ -->
+      <div class="service-full-card">
+        <div class="service-full-header">
+          <div>
+            <span class="badge-bubble" style="margin-bottom: 10px;">Google Speed Benchmark</span>
+            <h2 style="font-size: 1.8rem; font-weight: 700; color: var(--text-main);" data-i18n="service3Title">SEO аудит & Скорост 99+</h2>
+          </div>
+          <a href="contacts.html" class="btn btn-primary" data-i18n="serviceBtnConsult">Заявете консултация →</a>
+        </div>
+        <p style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.7;" data-i18n="service3Desc">
+          Оптимизация на Core Web Vitals, почистване на кода и регистрация в търсачките за челни позиции в Google.
+        </p>
+        <div class="service-full-points">
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Пълно оптимизиране на LCP (под 0.8s), CLS (0.00) и INP (под 50ms)</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Внедряване на структурирани данни Schema.org (Product, Organization, FAQ, LocalBusiness)</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Конвертиране на всички изображения във формати от следващо поколение WebP / AVIF</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Премахване на блокиращи скриптове и нежелан CSS код</span>
+          </div>
+        </div>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+          <span class="calc-tag">PageSpeed 99+</span>
+          <span class="calc-tag">Core Web Vitals</span>
+          <span class="calc-tag">Schema.org</span>
+          <span class="calc-tag">WebP / AVIF</span>
+        </div>
+      </div>
+
+      <!-- Service 4: Redesign & Modernization -->
+      <div class="service-full-card">
+        <div class="service-full-header">
+          <div>
+            <span class="badge-bubble" style="margin-bottom: 10px;">Modernization & UI/UX</span>
+            <h2 style="font-size: 1.8rem; font-weight: 700; color: var(--text-main);" data-i18n="service4Title">Редизайн & Модернизация</h2>
+          </div>
+          <a href="contacts.html" class="btn btn-primary" data-i18n="serviceBtnConsult">Заявете консултация →</a>
+        </div>
+        <p style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.7;" data-i18n="service4Desc">
+          Преобразуване на остарели сайтове в съвременни, стилни и удобни дигитални инструменти с висока конверсия.
+        </p>
+        <div class="service-full-points">
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Прецизен редизайн във Figma с фокус върху мобилно удобство и лесно поръчване</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Безопасна миграция на цялата база данни, потребители и SEO URL адреси без загуба на позиции</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Премахване на бавни готови шаблони в полза на лек авторски код</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>А/В тестове на ключови бутони и формуляри за по-висока възвръщаемост</span>
+          </div>
+        </div>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+          <span class="calc-tag">Figma UI/UX</span>
+          <span class="calc-tag">Zero SEO Drop</span>
+          <span class="calc-tag">Mobile First</span>
+        </div>
+      </div>
+
+      <!-- Service 5: AI Assistants & Chatbots -->
+      <div class="service-full-card">
+        <div class="service-full-header">
+          <div>
+            <span class="badge-bubble" style="margin-bottom: 10px;">Artificial Intelligence</span>
+            <h2 style="font-size: 1.8rem; font-weight: 700; color: var(--text-main);" data-i18n="service5Title">ШИ Асистенти & Чатботове</h2>
+          </div>
+          <a href="contacts.html" class="btn btn-primary" data-i18n="serviceBtnConsult">Заявете консултация →</a>
+        </div>
+        <p style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.7;" data-i18n="service5Desc">
+          Интеграция на интелигентни AI агенти, автоматизация на заявки в WhatsApp и Telegram и директна връзка с CRM.
+        </p>
+        <div class="service-full-points">
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Обучение на AI модел с вашите продукти, регламенти и ценоразписи</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>24/7 обслужване на клиенти на български, английски, немски и украински език</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Автоматично записване на срещи и предаване на лийд данни в CRM / Google Sheets</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Многоканална връзка: сайт уиджет, WhatsApp Business API и Telegram бот</span>
+          </div>
+        </div>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+          <span class="calc-tag">OpenAI / Claude API</span>
+          <span class="calc-tag">WhatsApp API</span>
+          <span class="calc-tag">Telegram Bot</span>
+          <span class="calc-tag">CRM Integration</span>
+        </div>
+      </div>
+
+      <!-- Service 6: Aerial 4K Video & Media -->
+      <div class="service-full-card">
+        <div class="service-full-header">
+          <div>
+            <span class="badge-bubble" style="margin-bottom: 10px;">Media Production</span>
+            <h2 style="font-size: 1.8rem; font-weight: 700; color: var(--text-main);" data-i18n="service6Title">Аерозъемка & Медия</h2>
+          </div>
+          <a href="contacts.html" class="btn btn-primary" data-i18n="serviceBtnConsult">Заявете консултация →</a>
+        </div>
+        <p style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.7;" data-i18n="service6Desc">
+          Професионално 4K видеозаснемане с дрон на недвижими имоти и бизнес обекти, както и създаване на фотобанки.
+        </p>
+        <div class="service-full-points">
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Заснемане с професионални 4K HDR дронове DJI по цялото българско Черноморие</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Монтаж на промо видео клипове, озвучаване и подготовка за уеб и социални мрежи</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Оптимизация на видеото за сайта: стрийминг с минимален размер без забавяне на страницата</span>
+          </div>
+          <div class="service-point-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span>Панорамни 360-градусови виртуални обиколки на строителни обекти и хотели</span>
+          </div>
+        </div>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+          <span class="calc-tag">DJI 4K HDR</span>
+          <span class="calc-tag">360° Tours</span>
+          <span class="calc-tag">Web Streaming</span>
+        </div>
+      </div>
+
+      <!-- CTA Box -->
+      <div style="background: var(--bg-surface-elevated); border: 1px solid var(--border-glow); border-radius: var(--radius-xl); padding: 50px 32px; text-align: center; margin-top: 50px;">
+        <h3 style="font-size: 2rem; font-weight: 800; margin-bottom: 14px;" data-i18n="contactTitle">Готови ли сте да изведете бизнеса си на ново ниво?</h3>
+        <p style="color: var(--text-muted); max-width: 640px; margin: 0 auto 28px; line-height: 1.6;" data-i18n="contactDesc">
+          Обадете се, пишете ни в месинджърите или попълнете краткия бриф. Първата консултация е напълно безплатна.
+        </p>
+        <a href="contacts.html" class="btn btn-primary" style="padding: 14px 32px; font-size: 1rem;" data-i18n="navDiscuss">
+          Започнете проект →
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <a href="index.html" class="brand-link" style="margin-bottom: 14px;">
+            <div class="brand-logo-wrap">
+              <svg viewBox="0 0 140 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="140" height="92" rx="10" fill="#0E1116"/>
+                <text x="12" y="65" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="800" fill="#F3F4F6">B</text>
+                <text x="46" y="65" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="800" fill="#00f0ff">TAB</text>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title">BTAB<span>.</span></span>
+              <span class="brand-subtitle" data-i18n="brandSubtitle">Digital Studio</span>
+            </div>
+          </a>
+          <p data-i18n="footerDesc">
+            Веб-студио BTAB (Бургас, България). Професионална разработка, дизайн, SEO оптимизация и поддръжка на бързи уебсайтове от 2016 година.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-col-title" data-i18n="footerColServices">Услуги</div>
+          <ul class="footer-links">
+            <li><a href="services.html" data-i18n="service1Title">Разработка на Drupal 11</a></li>
+            <li><a href="services.html" data-i18n="service2Title">Онлайн магазини (E-Commerce)</a></li>
+            <li><a href="services.html" data-i18n="service3Title">SEO аудит & Скорост 99+</a></li>
+            <li><a href="services.html" data-i18n="service4Title">Редизайн & Модернизация</a></li>
+            <li><a href="services.html" data-i18n="service5Title">ШИ Асистенти & Чатботове</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title" data-i18n="footerColNav">Навигация</div>
+          <ul class="footer-links">
+            <li><a href="index.html" data-i18n="navHome">Начало</a></li>
+            <li><a href="services.html" data-i18n="navServices">Услуги</a></li>
+            <li><a href="vault.html" data-i18n="navVault">Сейф & Гаранции</a></li>
+            <li><a href="portfolio.html" data-i18n="navPortfolio">Портфолио</a></li>
+            <li><a href="about.html" data-i18n="navAbout">За нас</a></li>
+            <li><a href="contacts.html" data-i18n="navContacts">Контакти</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title" data-i18n="footerColContacts">Контакти</div>
+          <ul class="footer-links">
+            <li><a href="tel:+359879198455">+359 879 198 455</a></li>
+            <li><a href="mailto:info@btab.eu">info@btab.eu</a></li>
+            <li><a href="contacts.html">Бургас, ж.к. Лазур 130</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=359879198455" target="_blank" rel="noreferrer">WhatsApp чат</a></li>
+            <li><a href="https://t.me/btab_eu" target="_blank" rel="noreferrer">Telegram чат</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>Copyright © 2016–2026 BTAB.EU · All rights reserved.</div>
+        <div data-i18n="footerRights">Всички права запазени. Изработено с прецизност от BTAB.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div class="toast-notify" id="toast-notify"></div>
+
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+</body>
+</html>

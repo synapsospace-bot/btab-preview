@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сейф & Гаранции | BTAB — Европейски SLA 2026 и 100% Собственост на кода</title>
+  <meta name="description" content="Интерактивен сейф на гаранциите на студио BTAB: европейски договор за разработка (SLA 2026), 180-дневен гаранционен акт, 100% предаване на изходния код в Git.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+</head>
+<body data-palette="cyan">
+
+  <!-- ================= HEADER NAVIGATION ================= -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-link">
+        <div class="brand-logo-wrap">
+          <svg viewBox="0 0 140 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="140" height="92" rx="10" fill="#0E1116"/>
+            <text x="12" y="65" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="800" fill="#F3F4F6">B</text>
+            <text x="46" y="65" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="800" fill="#00f0ff">TAB</text>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">BTAB<span>.</span></span>
+          <span class="brand-subtitle" data-i18n="brandSubtitle">Digital Studio</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link" data-i18n="navHome">Начало</a></li>
+          <li><a href="services.html" class="nav-link" data-i18n="navServices">Услуги</a></li>
+          <li><a href="vault.html" class="nav-link active" data-i18n="navVault">Сейф & Гаранции</a></li>
+          <li><a href="portfolio.html" class="nav-link" data-i18n="navPortfolio">Портфолио</a></li>
+          <li><a href="about.html" class="nav-link" data-i18n="navAbout">За нас</a></li>
+          <li><a href="contacts.html" class="nav-link" data-i18n="navContacts">Контакти</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="palette-dots-wrap" title="Theme Palette">
+          <button type="button" class="palette-dot-btn cyan" data-palette="cyan" title="Cyan Palette"></button>
+          <button type="button" class="palette-dot-btn violet" data-palette="violet" title="Violet Palette"></button>
+          <button type="button" class="palette-dot-btn emerald" data-palette="emerald" title="Emerald Palette"></button>
+          <button type="button" class="palette-dot-btn sunset" data-palette="sunset" title="Sunset Palette"></button>
+        </div>
+
+        <div class="lang-switcher" aria-label="Language selection">
+          <button type="button" class="lang-btn active" data-lang="BG">BG</button>
+          <button type="button" class="lang-btn" data-lang="EN">EN</button>
+          <button type="button" class="lang-btn" data-lang="UA">UA</button>
+          <button type="button" class="lang-btn" data-lang="RU">RU</button>
+        </div>
+
+        <a href="contacts.html" class="btn btn-primary" style="padding: 9px 18px; font-size: 0.85rem;" data-i18n="navDiscuss">
+          Започнете проект →
+        </a>
+
+        <button type="button" class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= SUBPAGE HERO ================= -->
+  <section class="subpage-hero">
+    <div class="container">
+      <div class="breadcrumb-nav">
+        <a href="index.html" data-i18n="breadcrumbHome">Начало</a>
+        <span>/</span>
+        <span data-i18n="breadcrumbVault">Сейф & Гаранции</span>
+      </div>
+      <div class="badge-bubble" style="margin-bottom: 18px;" data-i18n="vaultPageBadge">
+        Официални гаранции & 100% сигурност
+      </div>
+      <h1 class="subpage-title text-gradient" data-i18n="vaultPageTitle">
+        Интерактивен сейф на договорите, SLA и стандартите на BTAB
+      </h1>
+      <p class="subpage-desc" data-i18n="vaultPageDesc">
+        Всички проектни документи, 180-дневна техническа гаранция, пълен достъп до Git репозиторията и европейски стандарти GDPR в прозрачен вид.
+      </p>
+
+      <!-- 3 Pillars Grid -->
+      <div class="process-steps-grid" style="grid-template-columns: repeat(3, 1fr); max-width: 1000px; margin: 40px auto 0;">
+        <div class="process-step-card">
+          <div class="process-step-title" style="font-size: 1.15rem;" data-i18n="vaultPillar1Title">📜 Европейски SLA 2026 договор</div>
+          <p class="process-step-desc" data-i18n="vaultPillar1Desc">Фиксирани етапи, срокове и финансови гаранции съгласно законодателството на ЕС.</p>
+        </div>
+        <div class="process-step-card">
+          <div class="process-step-title" style="font-size: 1.15rem;" data-i18n="vaultPillar2Title">🔒 100% Собственост и Git код</div>
+          <p class="process-step-desc" data-i18n="vaultPillar2Desc">Предаваме пълните изходни файлове, бази данни и Git история без скрити лицензи.</p>
+        </div>
+        <div class="process-step-card">
+          <div class="process-step-title" style="font-size: 1.15rem;" data-i18n="vaultPillar3Title">🛡️ 180 дни безплатна гаранция</div>
+          <p class="process-step-desc" data-i18n="vaultPillar3Desc">Моментално отстраняване на всякакви забележки след пускане на сайта в експлоатация.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 3D GLASS FOLDERS SHOWCASE ================= -->
+  <section class="vault-section" style="padding: 90px 0 100px;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow" data-i18n="vaultEyebrow">Дигитален сейф на проекти</span>
+        <h2 class="section-title text-gradient" data-i18n="vaultTitle">Интерактивни папки на вашите решения: от код до гаранция</h2>
+        <p class="section-desc" data-i18n="vaultDesc">Задръжте курсора, за да наклоните матовото стъкло. Кликнете, за да отворите папката и разгледате проектните файлове.</p>
+      </div>
+
+      <!-- Glass Folders Grid Container -->
+      <div class="vault-folders-grid" id="vault-folders-grid">
+        <!-- Rendered reactively via app.js with procedural liquid noise and full 3D tilt -->
+      </div>
+
+      <p style="text-align: center; margin-top: 36px; font-family: ui-monospace, 'SF Mono', monospace; font-size: 0.78rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-dim);" data-i18n="vaultHint">
+        ● Движете курсора за 3D наклон · Кликнете за отваряне · Натиснете + за добавяне на файл
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= DETAILED SLA & LEGAL CLAUSES ================= -->
+  <section class="section section-darker">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Прозрачност & Сигурност</span>
+        <h2 class="section-title text-gradient">Ключови клаузи на нашето Service Level Agreement (SLA)</h2>
+        <p class="section-desc">Ние гарантираме всяка буква от нашия договор. Ето защо водещи български и европейски бизнеси избират BTAB.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; margin-top: 40px;">
+        <div class="service-card" style="padding: 36px;">
+          <h3 style="font-size: 1.3rem; font-weight: 700; color: var(--text-main); margin-bottom: 12px;">⚡ Скоростна гаранция: Google PageSpeed 95+</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.65;">
+            Ако след предаване на сайта оценката в Google PageSpeed Insights за мобилни устройства е под 95 точки, нашият екип оптимизира кода за наша сметка до постигане на целевия резултат.
+          </p>
+        </div>
+
+        <div class="service-card" style="padding: 36px;">
+          <h3 style="font-size: 1.3rem; font-weight: 700; color: var(--text-main); margin-bottom: 12px;">⏱️ Време за реакция: до 2 работни часа</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.65;">
+            Всички критични инциденти се поемат в рамките на 120 минути. Имате персонален технически отговорник и директен канал в Telegram / WhatsApp.
+          </p>
+        </div>
+
+        <div class="service-card" style="padding: 36px;">
+          <h3 style="font-size: 1.3rem; font-weight: 700; color: var(--text-main); margin-bottom: 12px;">🔐 Пълни права и нулев Vendor Lock-In</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.65;">
+            Ние не ви обвързваме с платени абонаменти за наш софтуер. Всички авторски права, домейн имена, бази данни и Git репозитории са изцяло на името на вашия бизнес.
+          </p>
+        </div>
+
+        <div class="service-card" style="padding: 36px;">
+          <h3 style="font-size: 1.3rem; font-weight: 700; color: var(--text-main); margin-bottom: 12px;">🛡️ 180 дни пълна техническа гаранция</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.65;">
+            След пускането на сайта в продукция вие получавате половин година безплатно наблюдение, обновяване на сигурността и премахване на евентуални грешки.
+          </p>
+        </div>
+      </div>
+
+      <!-- CTA Box -->
+      <div style="background: var(--bg-surface); border: 1px solid var(--border-glow); border-radius: var(--radius-xl); padding: 48px 32px; text-align: center; margin-top: 50px;">
+        <h3 style="font-size: 1.8rem; font-weight: 800; margin-bottom: 14px;">Желаете да прегледате пълен образец на договора?</h3>
+        <p style="color: var(--text-muted); max-width: 620px; margin: 0 auto 26px; line-height: 1.6;">
+          Свържете се с нашия отдел за правно и техническо съгласуване. Ще ви изпратим типово споразумение и техническо задание за вашия бранш.
+        </p>
+        <a href="contacts.html" class="btn btn-primary" style="padding: 14px 30px; font-size: 0.95rem;">
+          Заявете образец на SLA 2026 →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <a href="index.html" class="brand-link" style="margin-bottom: 14px;">
+            <div class="brand-logo-wrap">
+              <svg viewBox="0 0 140 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="140" height="92" rx="10" fill="#0E1116"/>
+                <text x="12" y="65" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="800" fill="#F3F4F6">B</text>
+                <text x="46" y="65" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="800" fill="#00f0ff">TAB</text>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title">BTAB<span>.</span></span>
+              <span class="brand-subtitle" data-i18n="brandSubtitle">Digital Studio</span>
+            </div>
+          </a>
+          <p data-i18n="footerDesc">
+            Веб-студио BTAB (Бургас, България). Професионална разработка, дизайн, SEO оптимизация и поддръжка на бързи уебсайтове от 2016 година.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-col-title" data-i18n="footerColServices">Услуги</div>
+          <ul class="footer-links">
+            <li><a href="services.html" data-i18n="service1Title">Разработка на Drupal 11</a></li>
+            <li><a href="services.html" data-i18n="service2Title">Онлайн магазини (E-Commerce)</a></li>
+            <li><a href="services.html" data-i18n="service3Title">SEO аудит & Скорост 99+</a></li>
+            <li><a href="services.html" data-i18n="service4Title">Редизайн & Модернизация</a></li>
+            <li><a href="services.html" data-i18n="service5Title">ШИ Асистенти & Чатботове</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title" data-i18n="footerColNav">Навигация</div>
+          <ul class="footer-links">
+            <li><a href="index.html" data-i18n="navHome">Начало</a></li>
+            <li><a href="services.html" data-i18n="navServices">Услуги</a></li>
+            <li><a href="vault.html" data-i18n="navVault">Сейф & Гаранции</a></li>
+            <li><a href="portfolio.html" data-i18n="navPortfolio">Портфолио</a></li>
+            <li><a href="about.html" data-i18n="navAbout">За нас</a></li>
+            <li><a href="contacts.html" data-i18n="navContacts">Контакти</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title" data-i18n="footerColContacts">Контакти</div>
+          <ul class="footer-links">
+            <li><a href="tel:+359879198455">+359 879 198 455</a></li>
+            <li><a href="mailto:info@btab.eu">info@btab.eu</a></li>
+            <li><a href="contacts.html">Бургас, ж.к. Лазур 130</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=359879198455" target="_blank" rel="noreferrer">WhatsApp чат</a></li>
+            <li><a href="https://t.me/btab_eu" target="_blank" rel="noreferrer">Telegram чат</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>Copyright © 2016–2026 BTAB.EU · All rights reserved.</div>
+        <div data-i18n="footerRights">Всички права запазени. Изработено с прецизност от BTAB.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div class="toast-notify" id="toast-notify"></div>
+
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+</body>
+</html>
