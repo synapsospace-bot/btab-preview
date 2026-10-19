@@ -3015,6 +3015,16 @@
         ctx.save();
         ctx.globalAlpha = this.alpha;
 
+        // When mouse is near, intensify bubble radiance
+        if (mouse.x !== null && mouse.y !== null) {
+          const d = Math.hypot(this.x - mouse.x, this.y - mouse.y);
+          if (d < 160) {
+            const prox = (160 - d) / 160;
+            ctx.shadowColor = this.color;
+            ctx.shadowBlur = 22 * prox;
+          }
+        }
+
         // Outer glow
         const grad = ctx.createRadialGradient(
           this.x - this.r * 0.3, this.y - this.r * 0.3, this.r * 0.1,
@@ -3064,16 +3074,39 @@
     }
 
     const mouse = { x: null, y: null };
+    const wrapper = canvas.closest('.bubble-wordmark-wrapper') || canvas;
+    const glowGrad = document.getElementById('cursor-stroke-glow');
+    const glowText = document.getElementById('btab-glow-text');
 
-    canvas.addEventListener('mousemove', e => {
+    wrapper.addEventListener('mousemove', e => {
       const rect = canvas.getBoundingClientRect();
       mouse.x = e.clientX - rect.left;
       mouse.y = e.clientY - rect.top;
+
+      wrapper.style.setProperty('--mouse-x', `${mouse.x}px`);
+      wrapper.style.setProperty('--mouse-y', `${mouse.y}px`);
+      wrapper.style.setProperty('--mouse-active', '1');
+
+      if (glowGrad && glowText) {
+        const svg = wrapper.querySelector('.wordmark-svg-text');
+        if (svg) {
+          const sRect = svg.getBoundingClientRect();
+          const px = ((e.clientX - sRect.left) / sRect.width * 100).toFixed(1) + '%';
+          const py = ((e.clientY - sRect.top) / sRect.height * 100).toFixed(1) + '%';
+          glowGrad.setAttribute('cx', px);
+          glowGrad.setAttribute('cy', py);
+          glowGrad.setAttribute('fx', px);
+          glowGrad.setAttribute('fy', py);
+          glowText.style.opacity = '1';
+        }
+      }
     });
 
-    canvas.addEventListener('mouseleave', () => {
+    wrapper.addEventListener('mouseleave', () => {
       mouse.x = null;
       mouse.y = null;
+      wrapper.style.setProperty('--mouse-active', '0');
+      if (glowText) glowText.style.opacity = '0';
     });
 
     // Click to POP!
@@ -3103,6 +3136,43 @@
 
     function animate() {
       ctx.clearRect(0, 0, width, height);
+
+      // Interactive cursor spotlight illumination layer
+      if (mouse.x !== null && mouse.y !== null) {
+        ctx.save();
+        
+        // Broad ambient illumination aura (visible through the mask & cutout text)
+        const aura = ctx.createRadialGradient(
+          mouse.x, mouse.y, 0,
+          mouse.x, mouse.y, 220
+        );
+        aura.addColorStop(0, 'rgba(0, 240, 255, 0.42)');
+        aura.addColorStop(0.25, 'rgba(56, 189, 248, 0.28)');
+        aura.addColorStop(0.55, 'rgba(168, 85, 247, 0.15)');
+        aura.addColorStop(0.85, 'rgba(14, 165, 233, 0.05)');
+        aura.addColorStop(1, 'rgba(0, 0, 0, 0)');
+
+        ctx.fillStyle = aura;
+        ctx.beginPath();
+        ctx.arc(mouse.x, mouse.y, 220, 0, Math.PI * 2);
+        ctx.fill();
+
+        // High-energy central spotlight core
+        const core = ctx.createRadialGradient(
+          mouse.x, mouse.y, 0,
+          mouse.x, mouse.y, 75
+        );
+        core.addColorStop(0, 'rgba(255, 255, 255, 0.55)');
+        core.addColorStop(0.35, 'rgba(0, 240, 255, 0.35)');
+        core.addColorStop(1, 'rgba(0, 240, 255, 0)');
+
+        ctx.fillStyle = core;
+        ctx.beginPath();
+        ctx.arc(mouse.x, mouse.y, 75, 0, Math.PI * 2);
+        ctx.fill();
+
+        ctx.restore();
+      }
 
       bubbles.forEach((b, idx) => {
         b.update(mouse);
