@@ -1084,7 +1084,6 @@ h1, h2, h3, h4, .font-heading {
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  isolation: isolate;
 }
 
 /* Thematic background photo layer */
@@ -1096,10 +1095,10 @@ h1, h2, h3, h4, .font-heading {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.28;
+  opacity: 0.38;
   filter: brightness(0.92) contrast(1.15) saturate(1.15);
   transition: transform 0.75s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease, filter 0.4s ease;
-  z-index: -2;
+  z-index: 1;
 }
 
 /* Dark glass gradient overlay for 100% typography contrast */
@@ -1109,10 +1108,10 @@ h1, h2, h3, h4, .font-heading {
   inset: 0;
   background: linear-gradient(
     180deg,
-    rgba(10, 14, 25, 0.78) 0%,
-    rgba(7, 10, 18, 0.94) 100%
+    rgba(10, 14, 25, 0.72) 0%,
+    rgba(7, 10, 18, 0.90) 100%
   );
-  z-index: -1;
+  z-index: 2;
   pointer-events: none;
   transition: background 0.4s ease;
 }
@@ -1124,42 +1123,50 @@ h1, h2, h3, h4, .font-heading {
 }
 
 .service-card:hover::before {
-  opacity: 0.48;
-  transform: scale(1.06);
+  opacity: 0.58;
+  transform: scale(1.08);
   filter: brightness(1.02) contrast(1.22) saturate(1.2);
 }
 
 .service-card:hover::after {
   background: linear-gradient(
     180deg,
-    rgba(10, 14, 25, 0.64) 0%,
-    rgba(7, 10, 18, 0.88) 100%
+    rgba(10, 14, 25, 0.55) 0%,
+    rgba(7, 10, 18, 0.82) 100%
   );
 }
 
+/* Lift all content elements above background layers */
+.service-card > * {
+  position: relative;
+  z-index: 3;
+}
+
 /* Service Card Thematic Image Assignments */
-.service-card--drupal {
-  --card-bg: url('../assets/images/services/service-drupal.jpg');
+.service-card--drupal::before,
+.service-full-card.service-card--drupal::before {
+  background-image: url('../assets/images/services/service-drupal.jpg');
 }
-.service-card--ecommerce {
-  --card-bg: url('../assets/images/services/service-ecommerce.jpg');
+.service-card--ecommerce::before,
+.service-full-card.service-card--ecommerce::before {
+  background-image: url('../assets/images/services/service-ecommerce.jpg');
 }
-.service-card--seo {
-  --card-bg: url('../assets/images/services/service-seo.jpg');
+.service-card--seo::before,
+.service-full-card.service-card--seo::before {
+  background-image: url('../assets/images/services/service-seo.jpg');
 }
-.service-card--redesign {
-  --card-bg: url('../assets/images/services/service-redesign.jpg');
+.service-card--redesign::before,
+.service-full-card.service-card--redesign::before {
+  background-image: url('../assets/images/services/service-redesign.jpg');
 }
-.service-card--ai {
-  --card-bg: url('../assets/images/services/service-ai.jpg');
-}
-.service-card--ai::before {
+.service-card--ai::before,
+.service-full-card.service-card--ai::before {
+  background-image: url('../assets/images/services/service-ai.jpg');
   background-position: center 32%;
 }
-.service-card--drone {
-  --card-bg: url('../assets/images/services/service-drone.jpg');
-}
-.service-card--drone::before {
+.service-card--drone::before,
+.service-full-card.service-card--drone::before {
+  background-image: url('../assets/images/services/service-drone.jpg');
   background-position: center 36%;
 }
 
@@ -2386,7 +2393,6 @@ canvas.gf-sheet-art[data-ready="true"] { opacity: 1; filter: none; }
   margin-bottom: 40px;
   position: relative;
   overflow: hidden;
-  isolation: isolate;
   transition: all var(--transition-normal);
 }
 
@@ -2398,10 +2404,10 @@ canvas.gf-sheet-art[data-ready="true"] { opacity: 1; filter: none; }
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.16;
-  filter: brightness(0.85) contrast(1.15) saturate(1.1);
+  opacity: 0.28;
+  filter: brightness(0.9) contrast(1.15) saturate(1.15);
   transition: transform 0.75s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease;
-  z-index: -2;
+  z-index: 1;
 }
 
 .service-full-card::after {
@@ -2410,10 +2416,10 @@ canvas.gf-sheet-art[data-ready="true"] { opacity: 1; filter: none; }
   inset: 0;
   background: linear-gradient(
     180deg,
-    rgba(10, 14, 25, 0.85) 0%,
-    rgba(7, 10, 18, 0.96) 100%
+    rgba(10, 14, 25, 0.78) 0%,
+    rgba(7, 10, 18, 0.94) 100%
   );
-  z-index: -1;
+  z-index: 2;
   pointer-events: none;
 }
 
@@ -2423,8 +2429,13 @@ canvas.gf-sheet-art[data-ready="true"] { opacity: 1; filter: none; }
 }
 
 .service-full-card:hover::before {
-  opacity: 0.28;
+  opacity: 0.45;
   transform: scale(1.03);
+}
+
+.service-full-card > * {
+  position: relative;
+  z-index: 3;
 }
 
 .service-full-header {
