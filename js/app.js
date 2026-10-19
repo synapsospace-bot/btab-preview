@@ -3018,10 +3018,10 @@
         // When mouse is near, intensify bubble radiance
         if (mouse.x !== null && mouse.y !== null) {
           const d = Math.hypot(this.x - mouse.x, this.y - mouse.y);
-          if (d < 160) {
-            const prox = (160 - d) / 160;
+          if (d < 180) {
+            const prox = (180 - d) / 180;
             ctx.shadowColor = this.color;
-            ctx.shadowBlur = 22 * prox;
+            ctx.shadowBlur = 36 * prox;
           }
         }
 
@@ -3137,38 +3137,40 @@
     function animate() {
       ctx.clearRect(0, 0, width, height);
 
-      // Interactive cursor spotlight illumination layer
+      // Interactive cursor spotlight illumination layer (brightened)
       if (mouse.x !== null && mouse.y !== null) {
         ctx.save();
+        ctx.globalCompositeOperation = 'screen';
         
         // Broad ambient illumination aura (visible through the mask & cutout text)
         const aura = ctx.createRadialGradient(
           mouse.x, mouse.y, 0,
-          mouse.x, mouse.y, 220
+          mouse.x, mouse.y, 280
         );
-        aura.addColorStop(0, 'rgba(0, 240, 255, 0.42)');
-        aura.addColorStop(0.25, 'rgba(56, 189, 248, 0.28)');
-        aura.addColorStop(0.55, 'rgba(168, 85, 247, 0.15)');
-        aura.addColorStop(0.85, 'rgba(14, 165, 233, 0.05)');
+        aura.addColorStop(0, 'rgba(0, 240, 255, 0.75)');
+        aura.addColorStop(0.25, 'rgba(56, 189, 248, 0.52)');
+        aura.addColorStop(0.55, 'rgba(168, 85, 247, 0.32)');
+        aura.addColorStop(0.80, 'rgba(14, 165, 233, 0.12)');
         aura.addColorStop(1, 'rgba(0, 0, 0, 0)');
 
         ctx.fillStyle = aura;
         ctx.beginPath();
-        ctx.arc(mouse.x, mouse.y, 220, 0, Math.PI * 2);
+        ctx.arc(mouse.x, mouse.y, 280, 0, Math.PI * 2);
         ctx.fill();
 
         // High-energy central spotlight core
         const core = ctx.createRadialGradient(
           mouse.x, mouse.y, 0,
-          mouse.x, mouse.y, 75
+          mouse.x, mouse.y, 95
         );
-        core.addColorStop(0, 'rgba(255, 255, 255, 0.55)');
-        core.addColorStop(0.35, 'rgba(0, 240, 255, 0.35)');
+        core.addColorStop(0, 'rgba(255, 255, 255, 0.95)');
+        core.addColorStop(0.35, 'rgba(0, 240, 255, 0.70)');
+        core.addColorStop(0.70, 'rgba(0, 240, 255, 0.30)');
         core.addColorStop(1, 'rgba(0, 240, 255, 0)');
 
         ctx.fillStyle = core;
         ctx.beginPath();
-        ctx.arc(mouse.x, mouse.y, 75, 0, Math.PI * 2);
+        ctx.arc(mouse.x, mouse.y, 95, 0, Math.PI * 2);
         ctx.fill();
 
         ctx.restore();

@@ -443,7 +443,7 @@ h1, h2, h3, h4, .font-heading {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8), inset 0 0 40px rgba(0, 240, 255, 0.04);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8), 0 0 50px rgba(0, 240, 255, calc(var(--mouse-active, 0) * 0.28));
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -454,10 +454,11 @@ h1, h2, h3, h4, .font-heading {
   inset: 0;
   border-radius: inherit;
   background: radial-gradient(
-    320px circle at var(--mouse-x, -500px) var(--mouse-y, -500px),
-    rgba(0, 240, 255, 0.16) 0%,
-    rgba(99, 102, 241, 0.08) 45%,
-    transparent 80%
+    360px circle at var(--mouse-x, -500px) var(--mouse-y, -500px),
+    rgba(0, 240, 255, 0.32) 0%,
+    rgba(56, 189, 248, 0.20) 35%,
+    rgba(168, 85, 247, 0.12) 65%,
+    transparent 85%
   );
   pointer-events: none;
   z-index: 1;
@@ -471,12 +472,13 @@ h1, h2, h3, h4, .font-heading {
   position: absolute;
   inset: -1px;
   border-radius: inherit;
-  padding: 1px;
+  padding: 1.5px;
   background: radial-gradient(
-    280px circle at var(--mouse-x, -500px) var(--mouse-y, -500px),
-    rgba(0, 240, 255, 0.95) 0%,
-    rgba(168, 85, 247, 0.5) 40%,
-    transparent 75%
+    320px circle at var(--mouse-x, -500px) var(--mouse-y, -500px),
+    #00f0ff 0%,
+    rgba(56, 189, 248, 0.9) 30%,
+    rgba(168, 85, 247, 0.65) 55%,
+    transparent 80%
   );
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
@@ -518,7 +520,7 @@ h1, h2, h3, h4, .font-heading {
 }
 
 #btab-glow-text {
-  filter: drop-shadow(0 0 10px rgba(0, 240, 255, 0.85)) drop-shadow(0 0 24px rgba(56, 189, 248, 0.5));
+  filter: drop-shadow(0 0 6px #ffffff) drop-shadow(0 0 16px rgba(0, 240, 255, 0.95)) drop-shadow(0 0 32px rgba(0, 240, 255, 0.75));
   pointer-events: none;
   transition: opacity 0.25s ease;
 }
