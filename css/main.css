@@ -207,7 +207,7 @@ h1, h2, h3, h4, .font-heading {
 }
 
 .brand-logo-wrap {
-  width: 44px;
+  width: 54px;
   height: 44px;
   display: flex;
   align-items: center;
@@ -215,11 +215,22 @@ h1, h2, h3, h4, .font-heading {
   border-radius: var(--radius-sm);
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid var(--border-subtle);
+  padding: 4px 6px;
+  transition: all var(--transition-fast);
 }
 
-.brand-logo-wrap svg {
-  height: 26px;
+.brand-logo-wrap:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.brand-logo-wrap svg,
+.brand-logo-wrap img {
+  height: 32px;
   width: auto;
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
 }
 
 .brand-title {
