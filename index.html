@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTAB Web Studio | Бързи и оптимизирани уебсайтове на Drupal 11 & OpenCart</title>
+  <meta name="description" content="Уеб студио BTAB (Бургас, България). Професионална изработка на бързи, оптимизирани сайтове и онлайн магазини на Drupal 11 и OpenCart. Гаранция за скорост PageSpeed 99+ и безплатна поддръжка.">
+  <meta name="keywords" content="изработка на сайт, уеб дизайн, друпал 11, drupal 11 българия, бургас уеб студио, софия уеб разработка, btab, opencart, бърз сайт, seo оптимизация">
+  <link rel="canonical" href="https://btab.eu/">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="BTAB Web Studio — Бързи сайтове по достъпни цени">
+  <meta property="og:description" content="Професионално създаване и оптимизация на уебсайтове в България и ЕС. Drupal 11, OpenCart, чист код и максимална скорост.">
+  <meta property="og:image" content="assets/images/logo.svg">
+  <meta property="og:url" content="https://btab.eu/">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+
+  <!-- Google Fonts: Space Grotesk + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-palette="cyan">
+
+  <!-- ================= ORBITAL BACKGROUND POSTER LINES ================= -->
+  <div class="orbital-canvas-bg" aria-hidden="true">
+    <div class="orbital-circle orbital-circle-1"></div>
+    <div class="orbital-circle orbital-circle-2"></div>
+    <div class="orbital-circle orbital-circle-3"></div>
+  </div>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="top-navbar">
+    <div class="container navbar-inner">
+      <a href="#top" class="brand-link" title="BTAB Digital Agency">
+        <div class="brand-logo-wrap">
+          <svg viewBox="0 0 140 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="140" height="92" rx="10" fill="#0E1116"/>
+            <text x="12" y="65" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="800" fill="#F3F4F6">B</text>
+            <text x="46" y="65" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="800" fill="#00f0ff">TAB</text>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">BTAB<span>.</span></span>
+          <span class="brand-subtitle" data-i18n="brandSubtitle">Digital Studio</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#services" class="nav-link" data-i18n="navServices">Услуги</a></li>
+          <li><a href="#vault" class="nav-link" data-i18n="navVault">Сейф</a></li>
+          <li><a href="#portfolio" class="nav-link" data-i18n="navPortfolio">Портфолио</a></li>
+          <li><a href="#calculator" class="nav-link" data-i18n="navCalculator">Калкулатор</a></li>
+          <li><a href="#why-us" class="nav-link" data-i18n="navWhyUs">Предимства</a></li>
+          <li><a href="#contact" class="nav-link" data-i18n="navContacts">Контакти</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Items & Language Switcher & Palette Switcher -->
+      <div class="nav-actions">
+        <!-- 4 Color Theme Palette Dots (21st.dev Bubble Poster Style) -->
+        <div class="palette-dots-wrap" title="Theme Palette">
+          <button type="button" class="palette-dot-btn cyan" data-palette="cyan" title="Cyan Palette"></button>
+          <button type="button" class="palette-dot-btn violet" data-palette="violet" title="Violet Palette"></button>
+          <button type="button" class="palette-dot-btn emerald" data-palette="emerald" title="Emerald Palette"></button>
+          <button type="button" class="palette-dot-btn sunset" data-palette="sunset" title="Sunset Palette"></button>
+        </div>
+
+        <!-- Language Switcher -->
+        <div class="lang-switcher" aria-label="Language selection">
+          <button type="button" class="lang-btn active" data-lang="BG">BG</button>
+          <button type="button" class="lang-btn" data-lang="EN">EN</button>
+          <button type="button" class="lang-btn" data-lang="UA">UA</button>
+          <button type="button" class="lang-btn" data-lang="RU">RU</button>
+        </div>
+
+        <a href="#contact" class="btn btn-primary" style="padding: 9px 18px; font-size: 0.85rem;" data-i18n="navDiscuss">
+          Започнете проект →
+        </a>
+
+        <button type="button" class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION (BUBBLE POSTER DESIGN) ================= -->
+  <section class="hero-section" id="top">
+    <div class="hero-glow-bg"></div>
+    <div class="container">
+
+      <!-- Interactive Pop-able Bubble Canvas Wordmark -->
+      <div class="bubble-poster-hero">
+        <div class="bubble-wordmark-wrapper">
+          <canvas id="bubble-canvas"></canvas>
+          <div class="wordmark-mask-overlay">
+            <svg class="wordmark-svg-text" viewBox="0 0 1000 220" preserveAspectRatio="xMidYMid meet">
+              <defs>
+                <mask id="btab-mask">
+                  <rect width="1000" height="220" fill="white" />
+                  <text x="500" y="162" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="190" font-weight="900" letter-spacing="-0.04em" fill="black">BTAB.EU</text>
+                </mask>
+              </defs>
+              <rect width="1000" height="220" fill="#06080e" fill-opacity="0.88" mask="url(#btab-mask)" />
+              <text x="500" y="162" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="190" font-weight="900" letter-spacing="-0.04em" fill="none" stroke="rgba(255,255,255,0.75)" stroke-width="2">BTAB.EU</text>
+            </svg>
+          </div>
+        </div>
+
+        <div class="bubble-hero-meta">
+          <div class="bubble-issue-badge" data-i18n="heroIssueTag">#2026</div>
+          <div class="bubble-caption-hint">
+            <span class="bubble-caption-dot"></span>
+            <span data-i18n="heroBubbleHint">● КЛИКНЕТЕ ВЪРХУ БАЛОНИТЕ. ТЕ СЕ ПУКАТ.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Content Editorial Grid -->
+      <div class="hero-content-grid">
+        <div class="hero-left">
+          <span class="hero-editorial-asterisk">✱</span>
+          <div class="hero-badge-wrap">
+            <span class="badge badge-pulse">
+              <span class="pulse-dot"></span>
+              <span data-i18n="heroBadge">Приемаме проекти за 2026 в ЕС и цял свят</span>
+            </span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="text-gradient" data-i18n="heroTitle">Бързи, сигурни и високодоходни сайтове за вашия бизнес.</span>
+          </h1>
+
+          <p class="hero-desc" data-i18n="heroDesc">
+            Уеб студио BTAB (Бургас, България). Проектираме модерни уебсайтове на Drupal 11, OpenCart и Headless архитектури с гарантирана скорост PageSpeed 99+ и чист код без излишни зависимости.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#calculator" class="btn btn-cyan">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+              </svg>
+              <span data-i18n="heroBtnCalc">Изчислете стойност →</span>
+            </a>
+
+            <a href="#portfolio" class="btn btn-secondary">
+              <span data-i18n="heroBtnPortfolio">Вижте нашите работи</span>
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Live Speed Benchmark Widget -->
+        <div class="hero-right">
+          <div class="hero-benchmark-card">
+            <div class="benchmark-header">
+              <span class="benchmark-title" data-i18n="benchTitle">Тест за скорост в реално време</span>
+              <span class="benchmark-badge" data-i18n="benchLive">Google PageSpeed: 99+</span>
+            </div>
+
+            <div class="speed-comparison-grid">
+              <div class="speed-box winner">
+                <span class="speed-box-tag" data-i18n="benchBtabTag">Код на BTAB</span>
+                <div class="speed-box-val">0.4s</div>
+                <span class="speed-box-sub" data-i18n="benchBtabSub">Моментално зареждане за 0.4s</span>
+              </div>
+
+              <div class="speed-box loser">
+                <span class="speed-box-tag" data-i18n="benchOtherTag">Обикновени шаблони</span>
+                <div class="speed-box-val">3.8s</div>
+                <span class="speed-box-sub" data-i18n="benchOtherSub">Загуба на 45% от клиентите</span>
+              </div>
+            </div>
+
+            <div class="metrics-row">
+              <div class="metric-item">
+                <strong class="text-emerald">0.42 s</strong>
+                <span data-i18n="benchLcp">Първо съдържание (LCP)</span>
+              </div>
+              <div class="metric-item">
+                <strong class="text-emerald">0.00</strong>
+                <span data-i18n="benchCls">Стабилност на макета (CLS)</span>
+              </div>
+              <div class="metric-item">
+                <strong class="text-cyan">99 / 100</strong>
+                <span data-i18n="benchScore">PageSpeed Индекс</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= CROSSING MARQUEE RIBBONS ================= -->
+  <section class="marquee-ribbons-section">
+    <div class="marquee-ribbon marquee-ribbon-1">
+      <div class="marquee-track" id="marquee-track-1">
+        <span>DRUPAL 11 АРХИТЕКТУРА ✱ СКОРОСТ 0.4s ✱ GOOGLE PAGESPEED 99+ ✱ OPENCART 4 ✱ ЧИСТ КОД ✱ БЕЗПЛАТНА ПОДДРЪЖКА 6 МЕСЕЦА ✱ БЪЛГАРИЯ & ЕС ✱</span>
+        <span>DRUPAL 11 АРХИТЕКТУРА ✱ СКОРОСТ 0.4s ✱ GOOGLE PAGESPEED 99+ ✱ OPENCART 4 ✱ ЧИСТ КОД ✱ БЕЗПЛАТНА ПОДДРЪЖКА 6 МЕСЕЦА ✱ БЪЛГАРИЯ & ЕС ✱</span>
+      </div>
+    </div>
+    <div class="marquee-ribbon marquee-ribbon-2">
+      <div class="marquee-track" id="marquee-track-2">
+        <span>✱ 10+ ГОДИНИ В ЕС ✱ 150+ ИЗПЪЛНЕНИ ПРОЕКТА ✱ БУРГАС · СОФИЯ · ВАРНА · ЕС ✱ ОФИЦИАЛЕН ДОГОВОР И ГАРАНЦИЯ ✱ БЪРЗ УЕБ ДИЗАЙН ✱</span>
+        <span>✱ 10+ ГОДИНИ В ЕС ✱ 150+ ИЗПЪЛНЕНИ ПРОЕКТА ✱ БУРГАС · СОФИЯ · ВАРНА · ЕС ✱ ОФИЦИАЛЕН ДОГОВОР И ГАРАНЦИЯ ✱ БЪРЗ УЕБ ДИЗАЙН ✱</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TRUST STATS BAR ================= -->
+  <section class="trust-bar">
+    <div class="container trust-stats-grid">
+      <div class="trust-stat-box">
+        <div class="trust-stat-num">10+</div>
+        <div class="trust-stat-label" data-i18n="statYears">Години опит на пазара в ЕС</div>
+      </div>
+      <div class="trust-stat-box">
+        <div class="trust-stat-num">150+</div>
+        <div class="trust-stat-label" data-i18n="statProjects">Успешно реализирани проекта</div>
+      </div>
+      <div class="trust-stat-box">
+        <div class="trust-stat-num">0.4s</div>
+        <div class="trust-stat-label" data-i18n="statSpeed">Средна скорост на зареждане</div>
+      </div>
+      <div class="trust-stat-box">
+        <div class="trust-stat-num">6 мес.</div>
+        <div class="trust-stat-label" data-i18n="statSupport">Безплатна техническа поддръжка</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INTERACTIVE CALCULATOR ================= -->
+  <section class="section" id="calculator">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow" data-i18n="calcEyebrow">Интерактивен калкулатор</span>
+        <h2 class="section-title text-gradient" data-i18n="calcTitle">Изчислете бюджета и сроковете на вашия сайт</h2>
+        <p class="section-desc" data-i18n="calcDesc">Изберете параметрите на вашия бъдещ проект, за да получите точна и реалистична оценка за разработка.</p>
+      </div>
+
+      <div class="calculator-card">
+        <div class="calculator-layout">
+          <!-- Options Controls -->
+          <div class="calc-controls">
+            <!-- Step 1: Type -->
+            <div class="calc-step">
+              <div class="calc-step-title">
+                <span class="calc-step-num">1</span>
+                <span data-i18n="calcStep1">1. Тип на проекта</span>
+              </div>
+              <div class="calc-options-grid">
+                <button type="button" class="calc-btn-option calc-type-btn" data-type="landing">
+                  <span class="calc-btn-name" data-i18n="calcLanding">Лендинг страница</span>
+                  <span class="calc-btn-sub" data-i18n="calcLandingSub">от 5 дни · от 650€</span>
+                </button>
+                <button type="button" class="calc-btn-option calc-type-btn selected" data-type="corporate">
+                  <span class="calc-btn-name" data-i18n="calcCorporate">Корпоративен сайт</span>
+                  <span class="calc-btn-sub" data-i18n="calcCorporateSub">от 12 дни · от 1250€</span>
+                </button>
+                <button type="button" class="calc-btn-option calc-type-btn" data-type="shop">
+                  <span class="calc-btn-name" data-i18n="calcShop">Онлайн магазин</span>
+                  <span class="calc-btn-sub" data-i18n="calcShopSub">от 18 дни · от 1850€</span>
+                </button>
+                <button type="button" class="calc-btn-option calc-type-btn" data-type="catalog">
+                  <span class="calc-btn-name" data-i18n="calcCatalog">Продуктов каталог</span>
+                  <span class="calc-btn-sub" data-i18n="calcCatalogSub">от 14 дни · от 1400€</span>
+                </button>
+                <button type="button" class="calc-btn-option calc-type-btn" data-type="audit">
+                  <span class="calc-btn-name" data-i18n="calcAudit">SEO & Ускоряване</span>
+                  <span class="calc-btn-sub" data-i18n="calcAuditSub">от 3 дни · от 450€</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 2: CMS Stack -->
+            <div class="calc-step">
+              <div class="calc-step-title">
+                <span class="calc-step-num">2</span>
+                <span data-i18n="calcStep2">2. CMS платформа и технологии</span>
+              </div>
+              <div class="calc-options-grid">
+                <button type="button" class="calc-btn-option calc-cms-btn selected" data-cms="drupal">
+                  <span class="calc-btn-name" data-i18n="calcDrupalName">Drupal 11 (Препоръчано)</span>
+                  <span class="calc-btn-sub" data-i18n="calcDrupalSub">Максимална сигурност и мащаб</span>
+                </button>
+                <button type="button" class="calc-btn-option calc-cms-btn" data-cms="opencart">
+                  <span class="calc-btn-name" data-i18n="calcOpencartName">OpenCart 3 / 4</span>
+                  <span class="calc-btn-sub" data-i18n="calcOpencartSub">За търговия и магазини</span>
+                </button>
+                <button type="button" class="calc-btn-option calc-cms-btn" data-cms="headless">
+                  <span class="calc-btn-name" data-i18n="calcHeadlessName">Headless / React</span>
+                  <span class="calc-btn-sub" data-i18n="calcHeadlessSub">Ултра бързи веб приложения</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 3: Add-on Modules -->
+            <div class="calc-step" style="margin-bottom: 0;">
+              <div class="calc-step-title">
+                <span class="calc-step-num">3</span>
+                <span data-i18n="calcStep3">3. Допълнителни модули</span>
+              </div>
+              <div class="calc-checkbox-grid">
+                <div class="calc-check-item checked" data-addon="multi">
+                  <div class="calc-check-box">✓</div>
+                  <span class="calc-check-text" data-i18n="calcOptMulti">Многоезичност (2-4 езика)</span>
+                </div>
+                <div class="calc-check-item" data-addon="payment">
+                  <div class="calc-check-box">✓</div>
+                  <span class="calc-check-text" data-i18n="calcOptPayment">Онлайн плащания (Stripe/Борика)</span>
+                </div>
+                <div class="calc-check-item" data-addon="crm">
+                  <div class="calc-check-box">✓</div>
+                  <span class="calc-check-text" data-i18n="calcOptCrm">Интеграция с CRM / Склад</span>
+                </div>
+                <div class="calc-check-item" data-addon="ai">
+                  <div class="calc-check-box">✓</div>
+                  <span class="calc-check-text" data-i18n="calcOptAi">AI Асистент / Чатбот</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Summary Result Panel -->
+          <div class="calc-summary-panel">
+            <div>
+              <div class="calc-summary-title" data-i18n="calcEstimateTitle">Предварителна оценка</div>
+              <div class="calc-price-wrap">
+                <div class="calc-price-val" id="calc-total-price">€1500</div>
+                <div class="calc-price-sub" data-i18n="calcDisclaimer">Окончателната стойност се фиксира в договора след одобряване на детайлното задание.</div>
+              </div>
+
+              <div class="calc-timeline-row">
+                <span data-i18n="calcTimeLabel">Приблизителен срок:</span>
+                <strong><span id="calc-total-days">15</span> <span data-i18n="calcTimeDays">работни дни</span></strong>
+              </div>
+
+              <ul class="calc-features-list">
+                <li>
+                  <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span data-i18n="calcBenefit1">Гарантирана скорост PageSpeed 95+</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span data-i18n="calcBenefit2">Официален договор с гаранция</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span data-i18n="calcBenefit3">6 месеца безплатна поддръжка</span>
+                </li>
+              </ul>
+            </div>
+
+            <button type="button" class="btn btn-cyan" id="calc-order-trigger" style="width: 100%;">
+              <span data-i18n="calcOrderBtn">Поръчайте по това изчисление →</span>
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES MATRIX ================= -->
+  <section class="section section-darker" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow" data-i18n="servicesEyebrow">Пълен цикъл услуги</span>
+        <h2 class="section-title text-gradient" data-i18n="servicesTitle">Всичко необходимо за вашия успех в интернет</h2>
+        <p class="section-desc" data-i18n="servicesDesc">От архитектура на базата данни и UX дизайн до SEO класиране и автоматизация.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1: Drupal 11 -->
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+            </svg>
+          </div>
+          <h3 class="service-title" data-i18n="service1Title">Разработка на Drupal 11</h3>
+          <p class="service-desc" data-i18n="service1Desc">
+            Корпоративни портали, многоезични платформи и специализирани уеб системи с най-новите стандарти за сигурност и бързина.
+          </p>
+          <ul class="service-tags">
+            <li>Drupal 11</li>
+            <li>Twig 3</li>
+            <li>Headless API</li>
+            <li>Multi-language</li>
+          </ul>
+          <a href="#contact" class="service-btn" onclick="document.getElementById('contact-service').value='Корпоративен сайт на Drupal 11';">
+            <span data-i18n="serviceBtnConsult">Заявете консултация →</span>
+          </a>
+        </div>
+
+        <!-- Service 2: E-Commerce -->
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+            </svg>
+          </div>
+          <h3 class="service-title" data-i18n="service2Title">Онлайн магазини (E-Commerce)</h3>
+          <p class="service-desc" data-i18n="service2Desc">
+            Мащабируеми интернет магазини на OpenCart и Drupal Commerce с картови плащания (Stripe, Борика, myPOS) и складов синхрон.
+          </p>
+          <ul class="service-tags">
+            <li>OpenCart</li>
+            <li>Stripe & Borica</li>
+            <li>Складов синхрон</li>
+            <li>Мобилен чекаут</li>
+          </ul>
+          <a href="#contact" class="service-btn" onclick="document.getElementById('contact-service').value='Онлайн магазин (OpenCart / Headless)';">
+            <span data-i18n="serviceBtnConsult">Заявете консултация →</span>
+          </a>
+        </div>
+
+        <!-- Service 3: Speed & SEO -->
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+          </div>
+          <h3 class="service-title" data-i18n="service3Title">SEO аудит & Скорост 99+</h3>
+          <p class="service-desc" data-i18n="service3Desc">
+            Оптимизация на Core Web Vitals, почистване на кода и регистрация в търсачките за челни позиции в Google.
+          </p>
+          <ul class="service-tags">
+            <li>PageSpeed 99+</li>
+            <li>Core Web Vitals</li>
+            <li>Schema.org</li>
+            <li>Google Search</li>
+          </ul>
+          <a href="#contact" class="service-btn" onclick="document.getElementById('contact-service').value='SEO оптимизация и одит';">
+            <span data-i18n="serviceBtnConsult">Заявете консултация →</span>
+          </a>
+        </div>
+
+        <!-- Service 4: UI/UX & Redesign -->
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/>
+            </svg>
+          </div>
+          <h3 class="service-title" data-i18n="service4Title">Редизайн & Модернизация</h3>
+          <p class="service-desc" data-i18n="service4Desc">
+            Преобразуване на остарели сайтове в съвременни, стилни и удобни дигитални инструменти с висока конверсия.
+          </p>
+          <ul class="service-tags">
+            <li>Figma дизайн</li>
+            <li>Mobile-first</li>
+            <li>Миграция CMS</li>
+            <li>Анализ на конверсии</li>
+          </ul>
+          <a href="#contact" class="service-btn" onclick="document.getElementById('contact-service').value='Редизайн и ускоряване (PageSpeed 99+)';">
+            <span data-i18n="serviceBtnConsult">Заявете консултация →</span>
+          </a>
+        </div>
+
+        <!-- Service 5: AI & Automation -->
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+            </svg>
+          </div>
+          <h3 class="service-title" data-i18n="service5Title">ШИ Асистенти & Чатботове</h3>
+          <p class="service-desc" data-i18n="service5Desc">
+            Интеграция на интелигентни AI агенти, автоматизация на заявки в WhatsApp и Telegram и директна връзка с CRM.
+          </p>
+          <ul class="service-tags">
+            <li>AI Чатбот</li>
+            <li>WhatsApp & Telegram</li>
+            <li>CRM Вебхукове</li>
+            <li>24/7 Поддръжка</li>
+          </ul>
+          <a href="#contact" class="service-btn" onclick="document.getElementById('contact-service').value='ШИ Чатбот и автоматизация';">
+            <span data-i18n="serviceBtnConsult">Заявете консултация →</span>
+          </a>
+        </div>
+
+        <!-- Service 6: Aerial & Media -->
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/>
+            </svg>
+          </div>
+          <h3 class="service-title" data-i18n="service6Title">Аерозъемка & Медия</h3>
+          <p class="service-desc" data-i18n="service6Desc">
+            Професионално 4K видеозаснемане с дрон на недвижими имоти и бизнес обекти, както и създаване на фотобанки.
+          </p>
+          <ul class="service-tags">
+            <li>Дрон 4K</li>
+            <li>Недвижими имоти</li>
+            <li>Копирайтинг</li>
+            <li>Оптимизирано видео</li>
+          </ul>
+          <a href="#contact" class="service-btn" onclick="document.getElementById('contact-service').value='Лендинг страница (Landing Page)';">
+            <span data-i18n="serviceBtnConsult">Заявете консултация →</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INTERACTIVE GLASS FOLDER CARDS VAULT ================= -->
+  <section class="vault-section" id="vault">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow" data-i18n="vaultEyebrow">Дигитален сейф на проекти</span>
+        <h2 class="section-title text-gradient" data-i18n="vaultTitle">Интерактивни папки на вашите решения: от код до гаранция</h2>
+        <p class="section-desc" data-i18n="vaultDesc">Задръжте курсора, за да наклоните матовото стъкло. Кликнете, за да отворите папката и изтеглите документите и проектите.</p>
+      </div>
+
+      <div class="vault-folders-grid" id="vault-folders-grid">
+        <!-- Rendered reactively via app.js with procedural liquid noise and full 3D tilt -->
+      </div>
+
+      <p style="text-align: center; margin-top: 40px; font-family: ui-monospace, 'SF Mono', monospace; font-size: 0.76rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-dim);" data-i18n="vaultHint">
+        Hover to lean · Click to open · + to add
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= PORTFOLIO SHOWCASE ================= -->
+  <section class="section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow" data-i18n="portfolioEyebrow">Избрани проекти</span>
+        <h2 class="section-title text-gradient" data-i18n="portfolioTitle">Реални резултати за реални бизнеси</h2>
+        <p class="section-desc" data-i18n="portfolioDesc">Вижте как оптимизираните сайтове на BTAB увеличават продажбите на нашите партньори.</p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="portfolio-filters">
+        <button type="button" class="filter-btn active" data-filter="all" data-i18n="filterAll">Всички работи</button>
+        <button type="button" class="filter-btn" data-filter="shop" data-i18n="filterShop">Онлайн магазини</button>
+        <button type="button" class="filter-btn" data-filter="drupal" data-i18n="filterDrupal">Корпоративни на Drupal</button>
+        <button type="button" class="filter-btn" data-filter="services" data-i18n="filterServices">Услуги & Туризъм</button>
+      </div>
+
+      <!-- Dynamic Portfolio Grid -->
+      <div class="portfolio-grid" id="portfolio-grid">
+        <!-- Rendered reactively via app.js with #01, #02... badges and full localization -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WHY CHOOSE BTAB ================= -->
+  <section class="section section-darker" id="why-us">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow" data-i18n="whyEyebrow">Защо BTAB</span>
+        <h2 class="section-title text-gradient" data-i18n="whyTitle">Без компромиси в качеството и сигурността</h2>
+        <p class="section-desc" data-i18n="whyDesc">Ние не просто правим уеб страници — ние изграждаме високоефективен дигитален актив за вашия бизнес.</p>
+      </div>
+
+      <div class="trust-stats-grid" style="grid-template-columns: repeat(3, 1fr); gap: 32px;">
+        <div class="service-card">
+          <div class="trust-stat-num" style="font-size: 1.8rem;" data-i18n="why1Title">📋 Договор и гаранция</div>
+          <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 12px; line-height: 1.6;" data-i18n="why1Desc">
+            Работим 100% официално. Пълното техническо задание, сроковете и гаранционните задължения са фиксирани в договора.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="trust-stat-num" style="font-size: 1.8rem;" data-i18n="why2Title">🚀 Чист код без излишък</div>
+          <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 12px; line-height: 1.6;" data-i18n="why2Desc">
+            Без тежки готови теми и ненужни плъгини, които забавят сайта. Всяка функция е оптимизирана за мигновен отговор.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="trust-stat-num" style="font-size: 1.8rem;" data-i18n="why3Title">🎓 Обучение и поддръжка</div>
+          <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 12px; line-height: 1.6;" data-i18n="why3Desc">
+            Безплатна 6-месечна поддръжка. Обучаваме вас или ваш служител за лесна и бърза работа с административния панел.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT & BRIEF SECTION ================= -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow" data-i18n="contactEyebrow">Свържете се с нас</span>
+        <h2 class="section-title text-gradient" data-i18n="contactTitle">Готови ли сте да изведете бизнеса си на ново ниво?</h2>
+        <p class="section-desc" data-i18n="contactDesc">Обадете се, пишете ни в месинджърите или попълнете краткия бриф. Първата консултация е напълно безплатна.</p>
+      </div>
+
+      <div class="contact-layout">
+        <!-- Direct Contact Cards -->
+        <div class="contact-info-panel">
+          <div>
+            <h3 style="font-size: 1.5rem; margin-bottom: 12px;" data-i18n="contactStudioName">Студио BTAB (България)</h3>
+            <p style="color: var(--text-muted); line-height: 1.6;" data-i18n="contactOfficeAddress">
+              Централен офис: <strong>ж.к. Лазур 130, Бургас 8000, България</strong>.<br>
+              Работим с клиенти от Бургас, София, Пловдив, Варна, ЕС и света.
+            </p>
+
+            <div class="contact-cards-list">
+              <!-- Phone -->
+              <a href="tel:+359879198455" class="contact-direct-card">
+                <div class="contact-icon-box">
+                  <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                </div>
+                <div>
+                  <span class="contact-card-label" data-i18n="contactDirectPhone">Директен телефон</span>
+                  <span class="contact-card-value">+359 879 198 455</span>
+                </div>
+              </a>
+
+              <!-- WhatsApp -->
+              <a href="https://api.whatsapp.com/send?phone=359879198455" target="_blank" rel="noreferrer" class="contact-direct-card">
+                <div class="contact-icon-box" style="color: #25d366;">
+                  <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.772.825 2.791.825 3.183 0 5.769-2.586 5.77-5.767 0-3.18-2.587-5.77-5.77-5.77zm0 10.455c-.911 0-1.637-.253-2.433-.718l-.174-.103-1.62.425.433-1.58-.114-.181c-.507-.803-.849-1.528-.848-2.532 0-2.571 2.093-4.663 4.666-4.663 2.571 0 4.664 2.092 4.664 4.664 0 2.571-2.093 4.665-4.664 4.665zm7.643-8.877C17.658 5.735 14.978 4.7 12.032 4.7 8.012 4.7 4.747 7.965 4.745 11.986c0 1.378.388 2.721 1.123 3.882L4.5 20.301l4.57-1.199c1.121.611 2.378.932 3.658.933 4.02 0 7.287-3.266 7.288-7.287 0-1.948-.758-3.779-2.132-5.153z"/></svg>
+                </div>
+                <div>
+                  <span class="contact-card-label" data-i18n="contactDirectWhatsapp">WhatsApp чат</span>
+                  <span class="contact-card-value">+359 879 198 455</span>
+                </div>
+              </a>
+
+              <!-- Telegram -->
+              <a href="https://t.me/btab_eu" target="_blank" rel="noreferrer" class="contact-direct-card">
+                <div class="contact-icon-box" style="color: #0088cc;">
+                  <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.52 2.77-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/></svg>
+                </div>
+                <div>
+                  <span class="contact-card-label" data-i18n="contactDirectTg">Telegram контакт</span>
+                  <span class="contact-card-value">@btab_eu</span>
+                </div>
+              </a>
+
+              <!-- Email -->
+              <a href="mailto:info@btab.eu" class="contact-direct-card">
+                <div class="contact-icon-box">
+                  <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                </div>
+                <div>
+                  <span class="contact-card-label" data-i18n="contactDirectEmail">Имейл адрес</span>
+                  <span class="contact-card-value">info@btab.eu</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div style="margin-top: 32px; padding: 18px 22px; background: var(--bg-surface); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+            <span style="font-size: 0.8rem; text-transform: uppercase; color: var(--text-dim); display: block; margin-bottom: 4px;" data-i18n="contactHoursLabel">Работно време:</span>
+            <strong style="color: var(--text-main);" data-i18n="contactHoursVal">Понеделник — Петък: 09:00 — 18:00 (EET)</strong>
+          </div>
+        </div>
+
+        <!-- Project Brief Form -->
+        <div class="contact-form-card">
+          <form id="project-brief-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name" class="form-label" data-i18n="contactFormName">Вашето име *</label>
+                <input type="text" id="contact-name" name="name" class="form-input" placeholder="Иван Иванов" required minlength="2">
+              </div>
+
+              <div class="form-group">
+                <label for="contact-phone" class="form-label" data-i18n="contactFormPhone">Телефон или WhatsApp / Telegram *</label>
+                <input type="tel" id="contact-phone" name="phone" class="form-input" placeholder="+359 87 ... / +380 ..." required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-email" class="form-label" data-i18n="contactFormEmail">Имейл адрес *</label>
+                <input type="email" id="contact-email" name="email" class="form-input" placeholder="ivan@company.eu" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-service" class="form-label" data-i18n="contactFormService">Интересува ме услуга</label>
+                <select id="contact-service" name="service" class="form-select">
+                  <option value="Корпоративен сайт на Drupal 11">Корпоративен сайт на Drupal 11</option>
+                  <option value="Онлайн магазин (OpenCart / Headless)">Онлайн магазин (OpenCart / Headless)</option>
+                  <option value="Лендинг страница (Landing Page)">Лендинг страница (Landing Page)</option>
+                  <option value="Редизайн и ускоряване (PageSpeed 99+)">Редизайн и ускоряване (PageSpeed 99+)</option>
+                  <option value="SEO оптимизация и одит">SEO оптимизация и одит</option>
+                  <option value="ШИ Чатбот и автоматизация">ШИ Чатбот и автоматизация</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message" class="form-label" data-i18n="contactFormMsg">Разкажете накратко за вашите цели</label>
+              <textarea id="contact-message" name="message" class="form-textarea" rows="4" placeholder="Опишете ни вашия проект, целева аудитория или линк към съществуващ сайт..." data-i18n="contactFormMsgPlaceholder"></textarea>
+            </div>
+
+            <label class="gdpr-wrap">
+              <input type="checkbox" name="gdpr" required checked>
+              <span data-i18n="contactFormGdpr">Съгласен съм с обработката на личните ми данни (GDPR) за целите на запитването.</span>
+            </label>
+
+            <button type="submit" class="btn btn-cyan" style="width: 100%; padding: 16px;">
+              <span data-i18n="contactFormSubmit">Изпратете запитване →</span>
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#top" class="brand-link" style="margin-bottom: 14px;">
+            <div class="brand-logo-wrap">
+              <svg viewBox="0 0 140 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="140" height="92" rx="10" fill="#0E1116"/>
+                <text x="12" y="65" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="800" fill="#F3F4F6">B</text>
+                <text x="46" y="65" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="800" fill="#00f0ff">TAB</text>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title">BTAB<span>.</span></span>
+              <span class="brand-subtitle" data-i18n="brandSubtitle">Digital Studio</span>
+            </div>
+          </a>
+          <p data-i18n="footerDesc">
+            Веб-студио BTAB (Бургас, България). Професионална разработка, дизайн, SEO оптимизация и поддръжка на бързи уебсайтове от 2016 година.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-col-title" data-i18n="footerColServices">Услуги</div>
+          <ul class="footer-links">
+            <li><a href="#services" data-i18n="service1Title">Разработка на Drupal 11</a></li>
+            <li><a href="#services" data-i18n="service2Title">Онлайн магазини (E-Commerce)</a></li>
+            <li><a href="#services" data-i18n="service3Title">SEO аудит & Скорост 99+</a></li>
+            <li><a href="#services" data-i18n="service4Title">Редизайн & Модернизация</a></li>
+            <li><a href="#services" data-i18n="service5Title">ШИ Асистенти & Чатботове</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title" data-i18n="footerColNav">Навигация</div>
+          <ul class="footer-links">
+            <li><a href="#portfolio" data-i18n="navPortfolio">Портфолио</a></li>
+            <li><a href="#calculator" data-i18n="navCalculator">Калкулатор</a></li>
+            <li><a href="#why-us" data-i18n="navWhyUs">Предимства</a></li>
+            <li><a href="#contact" data-i18n="navContacts">Контакти</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title" data-i18n="footerColContacts">Контакти</div>
+          <ul class="footer-links">
+            <li><a href="tel:+359879198455">+359 879 198 455</a></li>
+            <li><a href="mailto:info@btab.eu">info@btab.eu</a></li>
+            <li><span>Бургас, ж.к. Лазур 130</span></li>
+            <li><a href="https://api.whatsapp.com/send?phone=359879198455" target="_blank" rel="noreferrer">WhatsApp чат</a></li>
+            <li><a href="https://t.me/btab_eu" target="_blank" rel="noreferrer">Telegram чат</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>Copyright © 2016–2026 BTAB.EU · All rights reserved.</div>
+        <div data-i18n="footerRights">Всички права запазени. Изработено с прецизност от BTAB.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= CASE STUDY DETAIL MODAL ================= -->
+  <div class="modal-backdrop" id="case-modal" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button type="button" class="modal-close-btn" aria-label="Close modal">✕</button>
+      <h3 id="modal-case-title" style="font-size: 1.6rem; margin-bottom: 20px; padding-right: 40px;"></h3>
+      <div id="modal-case-body"></div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
