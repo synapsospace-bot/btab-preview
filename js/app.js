@@ -2117,8 +2117,408 @@
         RU: "Получить консультацию по безопасности →"
       }
     }
-  };
+  ,
 
+    // 8. E-Commerce Core & Storefront
+    "ecom-core": {
+      icon: "🛒",
+      badge: {
+        UA: "Архітектура ядра інтернет-магазину",
+        BG: "Архитектура на ядрото на онлайн магазина",
+        EN: "Storefront & Core Engine Architecture",
+        RU: "Архитектура ядра интернет-магазина"
+      },
+      titles: {
+        UA: "Ядро інтернет-магазину: Вітрина, каталог, швидкий Checkout та платформи",
+        BG: "Ядро на онлайн магазина: Витрина, каталог, бърз Checkout и платформи",
+        EN: "E-Commerce Core: High-Conversion Storefront, Instant Checkout & CMS",
+        RU: "Ядро интернет-магазина: Витрина, каталог, быстрый Checkout и платформы"
+      },
+      tag: "E-Commerce Ядро",
+      sub: "Каталог · Вітрина · One-Step Checkout · CMS рушії",
+      intro: {
+        UA: "Ядро інтернет-магазину — це фундамент усієї системи електронної комерції, який безпосередньо впливає на конверсію відвідувачів у реальних покупців. Ми проектуємо сучасні, надшвидкі вітрини зі швидкістю завантаження менше 0.4 секунди та створюємо безшовний шлях клієнта від знайомства з каталогом до успішної оплати.",
+        BG: "Ядрото на онлайн магазина е фундамента на дигиталната търговия, който пряко определя конверсията на посетителите в клиенти. Ние проектираме ултрабързи витрини със скорост под 0.4 сек. и интуитивен път на клиента от каталога до завършване на поръчката.",
+        EN: "The storefront and core engine form the operational foundation of modern e-commerce. We engineer sub-0.4s fast, highly responsive storefronts and friction-free user journeys from product discovery to instant one-step checkout.",
+        RU: "Ядро интернет-магазина — фундамент электронной коммерции, напрямую определяющий конверсию посетителей в покупателей. Мы проектируем сверхбыстрые витрины со скоростью загрузки до 0.4 секунды и бесшовный путь клиента от каталога до оплаты."
+      },
+      clauses: {
+        UA: [
+          { title: "Інтерактивна вітрина та миттєвий каталог", desc: "Адаптивний Mobile-First / PWA інтерфейс, розумний AJAX-пошук з автодоповненням і виправленням помилок, фасетні фільтри за параметрами, брендами та ціною без перезавантаження сторінки, а також високонверсійні картки товарів з 360°/відео-оглядами, вибором модифікацій і розрахунком доставки." },
+          { title: "Швидкісний кошик і One-Step Checkout", desc: "Односторінкове оформлення замовлення без зайвих полів, автоматичне підтягування міст і відділень пошти за геолокацією, покупка в 1 клік, тригери збереження покинутих кошиків та інтеграція промокодів, що знижує показник покинутих кошиків на 35–45%." },
+          { title: "Особистий кабінет покупця (Self-Service)", desc: "Зручний кабінет клієнта: відстеження статусу замовлення в реальному часі, історія покупок з можливістю повторити замовлення в 1 клік, збережені адреси доставки, списки бажаного (Wishlist) зі сповіщеннями про зниження цін та накопичувальний баланс бонусів." },
+          { title: "Вибір та налаштування платформи / рушія", desc: "Експертне впровадження платформ під завдання бізнесу: OpenCart, Shopify, WooCommerce, Magento (Adobe Commerce), інтеграція з Horoshop та Prom.ua, або індивідуальна високопродуктивна Headless розробка на Drupal 11 + Next.js." }
+        ],
+        BG: [
+          { title: "Интерактивна витрина и каталог на продуктите", desc: "Mobile-First / PWA интерфейс, интелигентно AJAX търсене с подсказки, фасетни филтри по характеристики и конвертиращи продуктови карти с варианти и 360° преглед." },
+          { title: "Оптимизирана количка и One-Step Checkout", desc: "Поръчка на една страница без излишни полета, автоматично попълване на данни, бърза поръчка с 1 клик и автоматични тригери за изоставени колички." },
+          { title: "Клиентски профил (Self-Service)", desc: "Проследяване на поръчки в реално време, история на покупките с повторна поръчка с 1 клик, запазени адреси, списък с любими продукти (Wishlist) и бонус точки." },
+          { title: "Платформи и технологии за онлайн магазини", desc: "Професионално внедряване на OpenCart, Shopify, WooCommerce, Magento (Adobe Commerce), интеграции с пазарни платформи или кастъм Headless разработки с Drupal 11." }
+        ],
+        EN: [
+          { title: "Interactive Storefront & High-Speed Catalogue", desc: "Mobile-First / PWA responsive UI, faceted attribute filtering, instant AJAX predictive search, and high-converting product detail pages with variant matrices and 360° media." },
+          { title: "Frictionless One-Step Checkout & Cart", desc: "Streamlined single-page checkout, geolocation autofill, 1-click buy, and automated abandoned cart recovery sequences lowering abandonment rates by up to 45%." },
+          { title: "Client Account & Self-Service Portal", desc: "Real-time order tracking, 1-click re-ordering, saved shipping addresses, Wishlist price-drop alerts, and integrated customer loyalty reward wallets." },
+          { title: "Platform & CMS Engine Architecture", desc: "Engineered on OpenCart, Shopify, WooCommerce, Magento (Adobe Commerce), marketplace connectors (Horoshop, Prom), or decoupled Headless Drupal 11 + Next.js." }
+        ],
+        RU: [
+          { title: "Интерактивная витрина и каталог товаров", desc: "Mobile-First интерфейс, фасетные фильтры без перезагрузки, умный живой AJAX-поиск с подсказками и карточки товаров с выбором модификаций и видео." },
+          { title: "Оптимизированная корзина и One-Step Checkout", desc: "Одностраничное оформление заказа без лишних полей, автозаполнение адресов по геолокации, покупка в 1 клик и триггеры возврата брошенных корзин." },
+          { title: "Личный кабинет покупателя (Self-Service)", desc: "Отслеживание статусов заказов в реальном времени, повтор заказа в один клик, адресная книга, список избранного (Wishlist) и бонусный баланс." },
+          { title: "Платформы и движки интернет-магазинов", desc: "Внедрение и оптимизация: OpenCart, Shopify, WooCommerce, Magento (Adobe Commerce), интеграция с Prom.ua и Horoshop или индивидуальная разработка на Drupal 11." }
+        ]
+      },
+      actionBtn: {
+        UA: "Замовити ядро інтернет-магазину →",
+        BG: "Поръчайте ядро за онлайн магазин →",
+        EN: "Order E-Commerce Core Development →",
+        RU: "Заказать разработку ядра магазина →"
+      }
+    },
+
+    // 9. E-Commerce Payments & Acquiring
+    "ecom-payments": {
+      icon: "💳",
+      badge: {
+        UA: "Платіжна інфраструктура та еквайринг",
+        BG: "Платежни шлюзове и еквайринг",
+        EN: "Payment Gateways & Transaction Security",
+        RU: "Платежные шлюзы и эквайринг"
+      },
+      titles: {
+        UA: "Оплата й фінанси: Міжнародний еквайринг, фіскалізація (ПРРО) та антифрод",
+        BG: "Плащания и финанси: Международен еквайринг, фискализация и антифрод",
+        EN: "Payments & Financial Operations: Gateways, Fiscalization & Antifraud",
+        RU: "Оплата и финансы: Международный эквайринг, фискализация (ПРРО) и антифрод"
+      },
+      tag: "Платежі та фінанси",
+      sub: "Stripe · Borica · Monobank · Apple/Google Pay · ПРРО",
+      intro: {
+        UA: "Безвідмовна та безпечна платіжна інфраструктура гарантує прийом оплат від покупців з будь-якої точки світу в національних та міжнародних валютах (EUR, USD, BGN, UAH). Ми забезпечуємо пряму інтеграцію з банками, сервісами фіскалізації та інтелектуальним захистом від шахрайства.",
+        BG: "Надеждната и сигурна платежна инфраструктура гарантира приемане на плащания от всяка точка на света във валути EUR, USD, BGN. Интегрираме директно банки, модерни платежни шлюзове, фискализация и защита срещу измами.",
+        EN: "A robust, bulletproof payment architecture enables seamless transaction settlement from global shoppers in multiple currencies. We integrate Tier-1 acquirers, automated fiscalization, and real-time fraud defense.",
+        RU: "Безотказная платежная инфраструктура гарантирует прием платежей со всего мира во всех популярных валютах. Мы настраиваем интеграцию с банками, сервисами фискализации и защитой от мошенничества."
+      },
+      clauses: {
+        UA: [
+          { title: "Платіжні шлюзи та швидкий еквайринг", desc: "Пряме підключення провідних провайдерів: Stripe, PayPal, Borica (Болгарія/ЄС), Revolut Pay, Monobank (Mono Pay, покупка частинами), LiqPay, WayForPay з підтримкою Apple Pay та Google Pay в 1 клік." },
+          { title: "Автоматична фіскалізація та програмні РРО (ПРРО)", desc: "Миттєва генерація та фіскалізація електронних чеків (Checkbox, Вчасно.Каса, Cashalot, інтеграція з НАП Болгарії / шлюзами ЄС) з автодоставкою чека на email та в SMS." },
+          { title: "Інтелектуальний антифрод і 3D Secure 2.0", desc: "Багаторівневий захист від шахрайських операцій, чарджбеків та крадіжки даних з відповідністю стандарту PCI DSS Level 1, оцінкою ризику транзакцій та перевіркою IP/BIN карти." },
+          { title: "Автоматизовані повернення коштів (Refunds & Voids)", desc: "Миттєве повне або часткове повернення грошей на картку покупця безпосередньо з панелі замовлень без ручного входу в банківський кабінет." }
+        ],
+        BG: [
+          { title: "Платежни шлюзове и онлайн еквайринг", desc: "Интеграция на водещи системи: Stripe, PayPal, Борика (ЕС), Revolut Pay, Monobank, с поддръжка на Apple Pay и Google Pay с едно докосване." },
+          { title: "Автоматична фискализация и касови бележки", desc: "Издаване на електронни касови бележки (НАП съвместимост, Checkbox) с автоматично изпращане по имейл и SMS." },
+          { title: "Антифрод защита и 3D Secure 2.0", desc: "Защита срещу измами и chargeback претенции съгласно PCI DSS Level 1 с интелигентен анализ на риска." },
+          { title: "Автоматизирано възстановяване на средства (Refunds)", desc: "Бързо пълно или частично връщане на суми към клиентската карта директно от административния панел." }
+        ],
+        EN: [
+          { title: "Payment Gateways & Direct Acquiring", desc: "Turnkey checkout integrations for Stripe, PayPal, Borica (EU), Revolut Pay, Monobank, LiqPay, WayForPay with native 1-tap Apple Pay and Google Pay." },
+          { title: "Automated Fiscalization & Cloud Receipts", desc: "Automated generation and tax authority registry synchronization (Checkbox, EU Fiscal Gateways) with instant SMS and email receipt dispatch." },
+          { title: "Intelligent Antifraud & 3D Secure 2.0", desc: "Multi-layered defense against chargebacks and fraudulent cards backed by PCI DSS Level 1 compliance, IP/BIN validation, and real-time risk scoring." },
+          { title: "Automated Refunds & Reversals", desc: "One-click partial or full refunds triggered directly from the store order management dashboard without manual banking logins." }
+        ],
+        RU: [
+          { title: "Платежные шлюзы и быстрый эквайринг", desc: "Подключение ведущих провайдеров: Stripe, PayPal, Borica (ЕС), Revolut Pay, Monobank (Mono Pay, покупка частями), LiqPay, WayForPay с поддержкой Apple Pay и Google Pay." },
+          { title: "Автоматическая фискализация (ПРРО)", desc: "Мгновенное формирование фискальных чеков (Checkbox, Вчасно.Касса, Cashalot, налоговые шлюзы ЕС) с отправкой на email и по SMS." },
+          { title: "Антифрод защита и 3D Secure 2.0", desc: "Защита от мошеннических транзакций и чарджбеков по стандарту PCI DSS Level 1 с анализом риска и IP/BIN проверкой." },
+          { title: "Автоматические возвраты средств (Refunds)", desc: "Быстрый полный или частичный возврат денег на карту покупателя напрямую из панели управления магазином." }
+        ]
+      },
+      actionBtn: {
+        UA: "Підключити платіжні системи →",
+        BG: "Свържете платежни системи →",
+        EN: "Integrate Payment Gateways →",
+        RU: "Подключить платежные системы →"
+      }
+    },
+
+    // 10. E-Commerce Backend & Operations
+    "ecom-backend": {
+      icon: "⚙️",
+      badge: {
+        UA: "Операційний бекенд, склад та ERP",
+        BG: "Бекенд операции и ERP синхронизация",
+        EN: "Backend Operations, WMS & ERP Sync",
+        RU: "Операционный бэкенд, склад и ERP"
+      },
+      titles: {
+        UA: "Бекенд і операції: Управління товарами (PIM), облік замовлень (OMS) та ERP",
+        BG: "Бекенд и операции: Управление на продукти (PIM), поръчки (OMS) и ERP",
+        EN: "Backend & Operations: PIM Catalogue, OMS Processing & ERP Sync",
+        RU: "Бэкенд и операции: Управление товарами (PIM), учет заказов (OMS) и ERP"
+      },
+      tag: "Бекенд та автоматизація",
+      sub: "PIM · WMS склад · ERP / CRM облік · Дропшипінг",
+      intro: {
+        UA: "Ефективний бекенд автоматизує щоденну рутину інтернет-магазину: синхронізує залишки з фізичними складами, оновлює ціни в реальному часі, обробляє сотні замовлень за секунди та повністю виключає людські помилки менеджерів.",
+        BG: "Ефективният бекенд автоматизира рутината: синхронизира наличностите със складовете, обновява цените в реално време, обработва стотици поръчки и елиминира грешките на персонала.",
+        EN: "A high-performance backend streamlines e-commerce operations: real-time stock sync with physical warehouses, automated order dispatch, and deep two-way ERP/CRM integration.",
+        RU: "Эффективный бэкенд автоматизирует рутину: синхронизирует остатки со складами, обновляет цены в реальном времени, обрабатывает заказы и исключает человеческие ошибки."
+      },
+      clauses: {
+        UA: [
+          { title: "Управління товарами, цінами та залишками (PIM & WMS)", desc: "Централізована база десятків тисяч артикулів (SKU), облік залишків по кількох складах у реальному часі, гнучка матриця цін (роздріб, опт, дилери, валюти EUR/USD/UAH) та автоматичне списання залишків." },
+          { title: "Автоматизована обробка замовлень (OMS)", desc: "Маршрутизація замовлень за статусами (Новий → В обробці → Оплачено → Відправлено), авто-бронювання товарів на складі, поділ замовлення на кілька відправлень та автоматичні сповіщення клієнта." },
+          { title: "Двостороння інтеграція з ERP, CRM та 1С / BAS", desc: "Безперервний API-обмін у реальному часі з BAS / 1C, Бітрікс24, KeyCRM, SalesDrive, SAP, Microsoft Dynamics: автоматичний імпорт номенклатури, синхронізація залишків і передача замовлень." },
+          { title: "Постачальники та дропшипінг-автоматизація", desc: "Автоматичний парсинг і синхронізація прайсів постачальників через XML, YML, CSV, JSON та REST API, автоматичний перерахунок націнки за правилами та авто-маршрутизація відправлень партнерам." }
+        ],
+        BG: [
+          { title: "Управление на продукти, цени и наличности (PIM & WMS)", desc: "Централизирана база за десетки хиляди артикули (SKU), складов отчет в реално време, ценови нива (дребно, едро, партньори) и автоматично отписване на стока." },
+          { title: "Автоматизирана обработка на поръчки (OMS)", desc: "Маршрутизация по статуси, автоматично резервиране на наличности, разпределяне по складове и моментални нотификации към клиенти." },
+          { title: "Интеграция със счетоводство и CRM (ERP / BAS)", desc: "Двупосочен API обмен в реално време с 1C / BAS, Bitrix24, ERP системи, KeyCRM: синхронизация на остатъци, цени и фактури." },
+          { title: "Интеграция с доставчици и дропшипинг", desc: "Автоматичен импорт и обновяване на ценови листи през XML, CSV, API, правила за надценки и директна препратка на товарителници." }
+        ],
+        EN: [
+          { title: "PIM Catalogue & Real-Time Warehouse (WMS)", desc: "Centralized management of 50,000+ SKUs across multiple fulfillment hubs, live inventory deduction, tiered wholesale pricing, and automated out-of-stock masking." },
+          { title: "Order Management System (OMS Automation)", desc: "Status-driven order lifecycles, automated warehouse allocation, invoice generation, split shipments, and real-time tracking webhook triggers." },
+          { title: "Two-Way ERP & CRM Synchronization", desc: "Bi-directional REST API syncing with BAS / 1C, Bitrix24, KeyCRM, SAP, Microsoft Dynamics: real-time stock levels, ledger sync, customer profiles, and invoices." },
+          { title: "Supplier Data Pipelines & Dropshipping", desc: "Automated supplier catalog ingestion (XML, YML, CSV, JSON APIs), configurable price markups, and direct dropshipping fulfillment pipelines." }
+        ],
+        RU: [
+          { title: "Управление товарами, ценами и остатками (PIM & WMS)", desc: "Централизованная база десятков тысяч SKU, учет остатков по нескольким складам в реальном времени, гибкая матрица цен (розница, опт, дилеры) и авто-списание." },
+          { title: "Автоматизированная обработка заказов (OMS)", desc: "Маршрутизация заказов по статусам, авто-бронирование товаров на складе, разделение на несколько отправлений и уведомления клиентов." },
+          { title: "Интеграция с учетом: ERP, CRM и 1С / BAS", desc: "Непрерывный обмен данными по API с BAS / 1C, Битрикс24, KeyCRM, SalesDrive, SAP: синхронизация остатков, цен, клиентов и счетов." },
+          { title: "Поставщики и дропшиппинг-автоматизация", desc: "Автоматический парсинг прайсов поставщиков (XML, YML, CSV, JSON, API), расчет наценки по формулам и прямая передача заказов партнерам." }
+        ]
+      },
+      actionBtn: {
+        UA: "Налаштувати автоматизацію бекенду →",
+        BG: "Настройте бекенд автоматизация →",
+        EN: "Configure Backend Automation →",
+        RU: "Настроить автоматизацию бэкенда →"
+      }
+    },
+
+    // 11. E-Commerce Shipping & Logistics
+    "ecom-delivery": {
+      icon: "🚚",
+      badge: {
+        UA: "Логістична інфраструктура та кур'єри",
+        BG: "Логистика и куриерски модули",
+        EN: "Shipping & Courier Logistics Architecture",
+        RU: "Логистическая инфраструктура и курьеры"
+      },
+      titles: {
+        UA: "Доставка й логістика: Інтеграція з перевізниками, розрахунок тарифів та ТТН",
+        BG: "Доставка и логистика: Интеграция с куриери, изчисляване на цени и товарителници",
+        EN: "Shipping & Logistics: Courier APIs, Dynamic Rates, Tracking & Waybills",
+        RU: "Доставка и логистика: Интеграция с перевозчиками, расчет тарифов и ТТН"
+      },
+      tag: "Логістичний модуль",
+      sub: "Speedy · Econt · Нова Пошта · Калькулятор · ТТН",
+      intro: {
+        UA: "Швидка та прозора доставка — ключовий фактор повторних покупок. Ми підключаємо провідні кур'єрські служби Болгарії, ЄС та України, автоматизуємо вибір відділень та поштоматів на карті, розрахунок вартості та масовий друк накладних.",
+        BG: "Бързата и прозрачна доставка е ключов фактор за лоялността на клиентите. Интегрираме водещите куриерски служби в България и ЕС, автоматизираме избора на офиси и генерацията на товарителници.",
+        EN: "Frictionless shipping logistics drive recurring purchases. We integrate premier European and national courier networks with live branch selectors, real-time rate calculators, and one-click waybill generation.",
+        RU: "Быстрая и прозрачная доставка — ключевой фактор удовлетворенности покупателей. Мы подключаем ведущие службы доставки Болгарии, ЕС и Украины, автоматизируя выбор отделений и печать накладных."
+      },
+      clauses: {
+        UA: [
+          { title: "Інтеграція з кур'єрськими службами та перевізниками", desc: "Офіційні API-модулі для Speedy, Econt, DHL, DPD, UPS (ЄС), а також Нова Пошта та Укрпошта: автоматичний вибір відділень, поштоматів або кур'єрської адресної доставки на інтерактивній карті." },
+          { title: "Динамічний розрахунок вартості та термінів доставки", desc: "Миттєвий розрахунок тарифу безпосередньо в кошику за вагою, габаритами (об'ємна вага) та відстанню, а також налаштування безкоштовної доставки від певної суми замовлення." },
+          { title: "Створення та масовий друк накладних (ТТН / Waybills)", desc: "Генерація накладних в 1 клік з панелі адміністрування магазину, друк термостікерів і маркувань зі штрихкодами, замовлення кур'єра для забору партій відправлень зі складу." },
+          { title: "Онлайн-трекінг та SMS/Viber/TG сповіщення", desc: "Автоматичне оновлення статусів посилок у кабінеті клієнта, інтерактивний віджет відстеження та автоматична відправка номерів ТТН з посиланнями на трекінг." }
+        ],
+        BG: [
+          { title: "Интеграция с куриерски служби в България и ЕС", desc: "Пълна интеграция със Speedy, Econt, DHL, DPD, UPS: избор на офиси, автомати и доставка до адрес през интерактивна карта." },
+          { title: "Динамично изчисляване на такси и срокове", desc: "Точен калкулатор за доставка според тегло, обем и локация с правила за безплатна доставка над определена сума." },
+          { title: "Генериране и печат на товарителници (Waybills)", desc: "Създаване на товарителница с 1 клик от административния панел, масов печат на етикети с баркод и заявка за куриер." },
+          { title: "Проследяване на пратки в реално време", desc: "Автоматични нотификации със статус на пратката и линк за проследяване през SMS и Viber/Telegram." }
+        ],
+        EN: [
+          { title: "Carrier API Integrations (EU & Global)", desc: "Official API connectors for Speedy, Econt, DHL, DPD, UPS, Nova Poshta: interactive branch & automated locker pickers directly in checkout." },
+          { title: "Dynamic Rate Engines & Geolocation Shipping", desc: "Precise volumetric weight calculations, zone-based rate matrices, and rule-driven free delivery thresholds displayed transparently in cart." },
+          { title: "Batch Waybill Creation & Barcode Label Printing", desc: "Generate official courier shipping manifests and barcode thermal stickers in one click, plus automated courier pickup dispatching." },
+          { title: "Live Parcel Tracking & Milestone Notifications", desc: "Webhook-driven shipping status synchronization, branded tracking portals, and automatic SMS/Telegram/email status broadcasts." }
+        ],
+        RU: [
+          { title: "Интеграция с курьерскими службами и перевозчиками", desc: "Официальные API для Speedy, Econt, DHL, DPD, UPS (ЕС), Новая Почта: выбор отделений, почтоматов и курьерской доставки на карте." },
+          { title: "Динамический расчет стоимости и сроков доставки", desc: "Точный расчет тарифа в корзине по весу, объему и расстоянию, а также бесплатная доставка от суммы заказа." },
+          { title: "Создание и печать накладных (ТТН / Waybills)", desc: "Генерация накладных в 1 клик из панели магазина, массовая печать термоэтикеток со штрихкодами и вызов курьера." },
+          { title: "Онлайн-трекинг и SMS/Viber уведомления", desc: "Автоматическое обновление статусов посылок в кабинете клиента и отправка номеров ТТН со ссылками на отслеживание." }
+        ]
+      },
+      actionBtn: {
+        UA: "Підключити модулі доставки →",
+        BG: "Свържете модули за доставка →",
+        EN: "Integrate Logistics Modules →",
+        RU: "Подключить модули доставки →"
+      }
+    },
+
+    // 12. E-Commerce Marketing & Sales
+    "ecom-marketing": {
+      icon: "📈",
+      badge: {
+        UA: "Трафік, конверсія та маркетплейси",
+        BG: "Маркетинг, пазари и аналитика",
+        EN: "Traffic Acquisition, Marketplaces & Analytics",
+        RU: "Трафик, конверсия и маркетплейсы"
+      },
+      titles: {
+        UA: "Маркетинг і продажі: SEO, Google Merchant, маркетплейси та сквозна аналітика",
+        BG: "Маркетинг и продажби: SEO, Google Merchant, маркетплейси и уеб аналитика",
+        EN: "Marketing & Sales: SEO, Google Shopping Feeds, Marketplaces & GA4",
+        RU: "Маркетинг и продажи: SEO, Google Merchant, маркетплейсы и сквозная аналитика"
+      },
+      tag: "Маркетинг та продажі",
+      sub: "SEO · Google Shopping · Маркетплейси · CRM · GA4",
+      intro: {
+        UA: "Запуск онлайн-магазину — це лише перший крок. Щоб отримувати системний прибуток, потрібні автоматизовані канали залучення клієнтів: вивантаження на маркетплейси, реклама в Google Shopping, email-маркетинг та точна веб-аналітика.",
+        BG: "Стартирането на сайта е само първата стъпка. За постоянен ръст са нужни автоматизирани канали: износ към големи маркетплейси, реклама в Google Shopping, ремаркетинг и детайлна уеб аналитика.",
+        EN: "Building a storefront is only stage one. To scale revenue predictably, we build multi-channel sales pipelines: synchronized marketplace feeds, automated Google Shopping campaigns, retention CRM, and GA4 tracking.",
+        RU: "Запуск онлайн-магазина — только первый шаг. Для системной прибыли необходимы автоматизированные каналы привлечения: выгрузка на маркетплейсы, реклама в Google Shopping, CRM и сквозная аналитика."
+      },
+      clauses: {
+        UA: [
+          { title: "Технічне SEO та Google Merchant Center", desc: "Семантична мікророзмітка Schema.org (Product, Offer, Reviews), автоматичні автооновлювані XML/RSS фіди для Google Shopping / Performance Max та генерація метатегів фільтрів і категорій." },
+          { title: "Інтеграція з глобальними та локальними маркетплейсами", desc: "Автоматична вивантаження товарів та двостороння синхронізація залишків і цін з Amazon, eMAG, Rozetka, Prom.ua, OLX та майданчиками перевізників (Econt/Speedy Bazar)." },
+          { title: "CRM-маркетинг, розсилки та програми лояльності", desc: "Автоматичні ланцюжки email / SMS / push-сповіщень (покинуті кошики, вітальні серії, реактивація клієнтів), накопичувальні бонусні програми та гнучкий генератор промокодів." },
+          { title: "Сквозна аналітика: GA4 Ecommerce, Meta Pixel & ROI", desc: "Повне налаштування подій електронної комерції GA4 (view_item, add_to_cart, purchase), Meta Conversions API (CAPI), когортний аналіз та точний розрахунок вартості залучення клієнта (CAC/ROAS)." }
+        ],
+        BG: [
+          { title: "Техническо SEO и Google Merchant Center", desc: "Schema.org микроданни (Product, Offer), автоматични фийдове за Google Shopping и автоматизирани мета-тагове за филтри и категории." },
+          { title: "Интеграция с маркетплейси (Amazon, eMAG)", desc: "Автоматичен експорт на продукти и синхронизация на цени и наличности с Amazon, eMAG, OLX и каталозите на куриерите (Econt/Speedy Bazar)." },
+          { title: "CRM маркетинг и програми за лоялност", desc: "Автоматични съобщения за изоставени колички, персонализирани промокодове и имейл/SMS кампании за задържане на клиенти." },
+          { title: "Сквозна уеб аналитика (GA4 & Meta Pixel)", desc: "Настройка на Enhanced Ecommerce събития, Meta Conversions API (CAPI), измерване на ROI и стойност на придобиване на клиент (CAC)." }
+        ],
+        EN: [
+          { title: "Technical E-Commerce SEO & Google Merchant Feeds", desc: "Schema.org structured data (Product, Offer, AggregateRating), automated dynamic XML feeds for Google Shopping, and automated template-based SEO meta tags." },
+          { title: "Marketplace Syndication (Amazon, eMAG, Global)", desc: "Two-way inventory and order sync across Amazon, eMAG, eBay, local marketplace catalogs (Econt/Speedy Bazar), expanding your digital reach." },
+          { title: "Automated CRM Retention & Loyalty Engines", desc: "Event-triggered email/SMS/push sequences (abandoned cart, post-purchase win-backs), tiered customer reward wallets, and dynamic coupon rules." },
+          { title: "End-to-End Analytics (GA4, Meta CAPI & ROAS)", desc: "Full Enhanced Ecommerce funnel implementation (view_item, add_to_cart, purchase), Meta Server-Side Conversions API, and customer acquisition cost (CAC) tracking." }
+        ],
+        RU: [
+          { title: "Техническое SEO и Google Merchant Center", desc: "Семантическая разметка Schema.org (Product, Offer), автообновляемые XML-фиды для Google Shopping и автогенерация метатегов для фильтров." },
+          { title: "Интеграция с маркетплейсами (Amazon, eMAG, Prom)", desc: "Выгрузка товаров и двусторонняя синхронизация остатков и цен с Amazon, eMAG, Rozetka, Prom.ua, OLX и витринами курьеров (Econt/Speedy Bazar)." },
+          { title: "CRM-маркетинг, рассылки и программы лояльности", desc: "Триггерные email / SMS рассылки (брошенные корзины, реактивация), накопительные скидки и генератор персональных промокодов." },
+          { title: "Сквозная аналитика: GA4 Ecommerce, Meta Pixel & ROI", desc: "Полная настройка событий электронной коммерции GA4, Meta Conversions API (CAPI), когортный анализ и точный расчет стоимости привлечения (CAC/ROAS)." }
+        ]
+      },
+      actionBtn: {
+        UA: "Налаштувати канали продажів →",
+        BG: "Настройте канали за продажби →",
+        EN: "Configure Sales & Marketing Channels →",
+        RU: "Настроить каналы продаж →"
+      }
+    },
+
+    // 13. E-Commerce Customer Support & AI Agents
+    "ecom-support": {
+      icon: "🤖",
+      badge: {
+        UA: "ШІ-асистенти та клієнтський сервіс",
+        BG: "ШИ асистенти и клиентска поддръжка",
+        EN: "AI Agents & 24/7 Omnichannel Support",
+        RU: "ИИ ассистенты и клиентский сервис"
+      },
+      titles: {
+        UA: "Підтримка клієнтів: ШІ асистенти, месенджери, Helpdesk та система відгуків",
+        BG: "Поддръжка на клиенти: ШИ ботове, месинджъри, Helpdesk и отзиви",
+        EN: "Customer Support: AI Agents, Omnichannel Helpdesk & Verified Reviews",
+        RU: "Поддержка клиентов: ИИ ассистенты, мессенджеры, Helpdesk и система отзывов"
+      },
+      tag: "Підтримка та ШІ",
+      sub: "AI Agents · Месенджери · Helpdesk · Відгуки",
+      intro: {
+        UA: "Сучасний покупець очікує відповіді на питання протягом лічених секунд у зручному для нього каналі. Ми інтегруємо розумних AI-асистентів, які консультують 24/7, омніканальні системи підтримки та інструменти соціального доказу (відгуки й рейтинги).",
+        BG: "Съвременният купувач очаква мигновен отговор в удобен за него канал. Интегрираме умни ШИ асистенти с 24/7 достъп, омниканални хелпдеск системи и доказателства за доверие (отзиви и рейтинги).",
+        EN: "Modern consumers demand instant resolution inside their messaging channel of choice. We deploy 24/7 LLM-powered sales agents, unified operator helpdesks, and authenticated social proof rating engines.",
+        RU: "Современный покупатель ожидает ответа в течение секунд в удобном для него канале. Мы внедряем умных ИИ ассистентов 24/7, омниканальные хелпдески и системы отзывов реальных клиентов."
+      },
+      clauses: {
+        UA: [
+          { title: "ШІ асистенти та розумні чат-боти (AI Agents)", desc: "Автономні ШІ-консультанти нового покоління на базі LLM, навчені на базі асортименту вашого магазину: підбирають розмір, знаходять аналоги, перевіряють статус доставки та відповідають 24/7 у WhatsApp, Telegram і чаті сайту." },
+          { title: "Омніканальний онлайн-чат та Helpdesk для операторів", desc: "Єдина консоль для менеджерів: всі діалоги з сайту, пошти, WhatsApp, Viber та Telegram зводяться в один інтерфейс зі збереженням історії переписок та картки покупця." },
+          { title: "Інтерактивний FAQ та центр самообслуговування", desc: "Структурована база знань з живим пошуком відповіді на типові питання щодо оплати, доставки, повернення або гарантійних зобов'язань, яка знижує рутинне навантаження на 60–70%." },
+          { title: "Система верифікованих відгуків і фото-рейтингів", desc: "Автоматичний збір оцінок та відгуків після отримання замовлення, премодерація, фото- та відеовідгуки реальних покупців, що підвищує конверсію карток товарів на 30–40%." }
+        ],
+        BG: [
+          { title: "ШИ асистенти и умни чат-ботове (AI Agents)", desc: "Интелигентни ботове, обучени върху вашия продуктов каталог: консултират денонощно в WhatsApp, Telegram и уеб чата, препоръчват размери и следят пратки." },
+          { title: "Омниканален Helpdesk и уеб чат за оператори", desc: "Единен екран за мениджъри: запитванията от сайта, месинджърите и имейлите се обединяват в една хронология на клиента." },
+          { title: "Интерактивна база знания и FAQ", desc: "Динамични отговори на чести въпроси относно плащания, доставка и връщане, спестяващи до 70% от времето на персонала." },
+          { title: "Верифицирани клиентски отзиви и рейтинги", desc: "Автоматично събиране на рецензии със снимки след доставка, което вдига конверсията на продуктовите страници с над 30%." }
+        ],
+        EN: [
+          { title: "Autonomous AI Shopping Agents & LLM Chatbots", desc: "Generative AI sales reps fine-tuned on your catalog: recommending products, resolving size queries, and verifying order milestones 24/7 across WhatsApp, Telegram, and web." },
+          { title: "Unified Omnichannel Helpdesk & Live Chat", desc: "Consolidated operator console aggregating customer tickets from live chat, email, Telegram, and WhatsApp into unified customer profile cards." },
+          { title: "Dynamic Self-Service FAQ & Knowledge Base", desc: "Instant predictive answers for shipping policies, warranties, and payment guidelines reducing manual repetitive tickets by 60–70%." },
+          { title: "Verified Customer Reviews & Photo Ratings", desc: "Automated post-delivery review requests with photo/video uploads and review moderation, increasing cart conversions by 30–40%." }
+        ],
+        RU: [
+          { title: "ИИ ассистенты и умные чат-боты (AI Agents)", desc: "Автономные консультанты на базе LLM, обученные по каталогу товаров: подбирают товары, проверяют статус заказа и отвечают 24/7 в WhatsApp, Telegram и на сайте." },
+          { title: "Омниканальный онлайн-чат и Helpdesk", desc: "Единая панель для операторов: все диалоги с сайта, почты и мессенджеров сводятся в единый интерфейс с карточкой клиента." },
+          { title: "Интерактивный FAQ и база знаний", desc: "Быстрые ответы на частые вопросы по оплате, доставке и гарантии, снижающие нагрузку на менеджеров на 60–70%." },
+          { title: "Система проверенных отзывов и рейтингов", desc: "Автоматический сбор отзывов с фото после получения заказа, модерация и повышение доверия к товарам." }
+        ]
+      },
+      actionBtn: {
+        UA: "Підключити ШІ-підтримку →",
+        BG: "Свържете ШИ поддръжка →",
+        EN: "Deploy AI Customer Support →",
+        RU: "Подключить ИИ-поддержку →"
+      }
+    },
+
+    // 14. E-Commerce Security & Legal Compliance
+    "ecom-security": {
+      icon: "🔒",
+      badge: {
+        UA: "Юридичний захист та кібербезпека",
+        BG: "Правна защита и киберсигурност",
+        EN: "Legal Compliance & Cyber Protection",
+        RU: "Юридическая защита и кибербезопасность"
+      },
+      titles: {
+        UA: "Безпека й юридичне: Захист даних GDPR, сертифікати SSL, оферта та правила повернення",
+        BG: "Сигурност и право: Защита на данни по GDPR, SSL сертификати, оферта и правила за връщане",
+        EN: "Security & Legal Compliance: GDPR 2026, SSL Hardening, Terms of Service & Refunds",
+        RU: "Безопасность и право: Защита данных по GDPR, SSL сертификаты, оферта и правила возврата"
+      },
+      tag: "Безпека та комплаєнс",
+      sub: "GDPR 2026 · Оферта · Повернення · A+ SSL",
+      intro: {
+        UA: "Юридична прозорість та кібербезпека захищають ваш бізнес від штрафів європейських регуляторів і хакерських атак, викликаючи максимальну довіру у платоспроможних покупців.",
+        BG: "Правната коректност и киберсигурността предпазват бизнеса от солидни глоби по европейските директиви и хакерски атаки, изграждайки безусловно доверие у клиентите.",
+        EN: "Legal transparency and enterprise-grade cybersecurity insulate your business from EU regulatory penalties and data breaches while earning the highest confidence from international shoppers.",
+        RU: "Юридическая прозрачность и кибербезопасность защищают бизнес от штрафов регуляторов ЕС и хакерских атак, формируя максимальное доверие клиентов."
+      },
+      clauses: {
+        UA: [
+          { title: "Повна відповідність європейському регламенту GDPR 2026", desc: "Granular Cookie Consent банер з вибором категорій згоди, ведення аудиторського логу згод, шифрування персональних даних та реалізація права на видалення даних покупця." },
+          { title: "Комплект юридичних документів для онлайн-торгівлі", desc: "Публічна оферта (Terms of Service), Політика конфіденційності (Privacy Policy), Регламент доставки та правила повернення товару протягом 14 днів згідно норм ЄС та України." },
+          { title: "Криптографічний захист A+ SSL та відповідність PCI DSS", desc: "Сучасні SSL/TLS сертифікати з обов'язковим шифруванням HSTS, CSP та захистом від перехоплення даних. Безпечна обробка карткових платежів без збереження на сервері." },
+          { title: "Захист від спаму, DDoS-атак та автоматичні бекапи", desc: "Підключення Cloudflare WAF для фільтрації шкідливого трафіку, захист кошика та форм від спам-ботів і парсерів, а також регулярні автоматичні бекапи на ізольований сервер." }
+        ],
+        BG: [
+          { title: "Пълно съответствие с европейския регламент GDPR 2026", desc: "Многостепенен панел за съгласие с бисквитките (Cookie Consent), регистър на съгласията и пълна защита на личните данни." },
+          { title: "Правен пакет за онлайн търговия в ЕС", desc: "Общи условия (Публична оферта), Политика за поверителност и ясни правила за връщане на стока до 14 дни." },
+          { title: "Криптиране A+ SSL и съответствие с PCI DSS", desc: "HSTS, CSP хедъри и изолация на картовите плащания, отговарящи на международните банкови стандарти." },
+          { title: "Защита от спам, DDoS атаки и архивиране", desc: "Cloudflare WAF филтрация, защита на формуляри от ботове и ежедневни автоматични резервни копия." }
+        ],
+        EN: [
+          { title: "Full EU GDPR 2026 Compliance Architecture", desc: "Granular category-based Cookie Consent banner, audit compliance consent logs, personal data encryption, and user data erasure request pipelines." },
+          { title: "E-Commerce Legal Package & Consumer Protection", desc: "Enforceable Terms of Service (Public Offer), EU Privacy Policy, and 14-day statutory consumer return/refund policy workflows." },
+          { title: "A+ SSL Cryptography & PCI DSS Isolation", desc: "HSTS, CSP, and XSS defensive headers. Zero cardholder data stored on local servers, guaranteeing strict PCI DSS payment safety." },
+          { title: "Cloudflare WAF & Automated Isolated Backups", desc: "Cloudflare enterprise firewall mitigating DDoS floods and malicious scraper bots, plus automated nightly offsite database backups." }
+        ],
+        RU: [
+          { title: "Полное соответствие регламенту GDPR 2026 (ЕС)", desc: "Баннер Cookie Consent с выбором категорий, журнал согласий, шифрование персональных данных и поддержка права на удаление данных." },
+          { title: "Пакет юридических документов для онлайн-торговли", desc: "Публичная оферта, Политика конфиденциальности и правила возврата товара в течение 14 дней по стандартам ЕС и Украины." },
+          { title: "Криптографическая защита A+ SSL и PCI DSS", desc: "Сертификаты SSL с HSTS и CSP защитой, безопасная обработка карт через банковские шлюзы без сохранения на сервере." },
+          { title: "Защита от DDoS, спама и резервное копирование", desc: "Интеграция Cloudflare WAF, защита корзины от спам-ботов и регулярное автоматическое резервное копирование." }
+        ]
+      },
+      actionBtn: {
+        UA: "Отримати аудит безпеки магазину →",
+        BG: "Получете одит на сигурността →",
+        EN: "Request Security & Compliance Audit →",
+        RU: "Получить аудит безопасности магазина →"
+      }
+    }
+
+  };
   const vaultFoldersData = [
     {
       id: "folder-ecom",
@@ -2126,11 +2526,50 @@
       art: "aurora",
       seed: 42,
       titleKey: "folder1Title",
-      action: "add",
+      action: "more",
       files: [
-        { name: "Magic Book UK", meta: "OpenCart 3 · UK", caseId: "magic-book", docId: null },
-        { name: "Varna Rent-a-Car", meta: "Stripe & Borica", caseId: "varna-rent", docId: null },
-        { name: "Checkout 0.4s", meta: "Performance Spec", caseId: null, docId: "checkout-payments" }
+        { 
+          name: { UA: "01. Ядро магазину", BG: "01. Ядро на магазина", EN: "01. Storefront & Core", RU: "01. Ядро магазина" }, 
+          meta: { UA: "Каталог · Вітрина · CMS", BG: "Каталог · Витрина · CMS", EN: "Catalog · Storefront · CMS", RU: "Каталог · Витрина · CMS" }, 
+          caseId: null, 
+          docId: "ecom-core" 
+        },
+        { 
+          name: { UA: "02. Оплата & Еквайринг", BG: "02. Плащания & Еквайринг", EN: "02. Payments & Acquiring", RU: "02. Оплата & Эквайринг" }, 
+          meta: { UA: "Stripe · Borica · ПРРО", BG: "Stripe · Борика · Фискализация", EN: "Stripe · Borica · Fiscal", RU: "Stripe · Borica · ПРРО" }, 
+          caseId: null, 
+          docId: "ecom-payments" 
+        },
+        { 
+          name: { UA: "03. Бекенд & Операції", BG: "03. Бекенд & Операции", EN: "03. Backend & Operations", RU: "03. Бэкенд & Операции" }, 
+          meta: { UA: "PIM · WMS · ERP · CRM", BG: "PIM · WMS · ERP · CRM", EN: "PIM · WMS · ERP · CRM", RU: "PIM · WMS · ERP · CRM" }, 
+          caseId: null, 
+          docId: "ecom-backend" 
+        },
+        { 
+          name: { UA: "04. Доставка & Логістика", BG: "04. Доставка & Логистика", EN: "04. Shipping & Logistics", RU: "04. Доставка & Логистика" }, 
+          meta: { UA: "Speedy · Econt · ТТН", BG: "Speedy · Econt · Товарителници", EN: "Speedy · Econt · Waybills", RU: "Speedy · Econt · ТТН" }, 
+          caseId: null, 
+          docId: "ecom-delivery" 
+        },
+        { 
+          name: { UA: "05. Маркетинг & Продажі", BG: "05. Маркетинг & Продажби", EN: "05. Marketing & Sales", RU: "05. Маркетинг & Продажи" }, 
+          meta: { UA: "SEO · Google · Marketplaces", BG: "SEO · Google · Пазари", EN: "SEO · Google · Marketplaces", RU: "SEO · Google · Marketplaces" }, 
+          caseId: null, 
+          docId: "ecom-marketing" 
+        },
+        { 
+          name: { UA: "06. Підтримка & AI Agents", BG: "06. Поддръжка & AI Ботове", EN: "06. Support & AI Agents", RU: "06. Поддержка & AI Боты" }, 
+          meta: { UA: "ШІ агенти · Helpdesk", BG: "ШИ агенти · Helpdesk", EN: "AI Agents · Helpdesk", RU: "ИИ агенты · Helpdesk" }, 
+          caseId: null, 
+          docId: "ecom-support" 
+        },
+        { 
+          name: { UA: "07. Безпека & Юридичне", BG: "07. Сигурност & Право", EN: "07. Security & Legal", RU: "07. Безопасность & Право" }, 
+          meta: { UA: "GDPR · Оферта · SSL", BG: "GDPR · Оферта · SSL", EN: "GDPR · Legal Terms · SSL", RU: "GDPR · Оферта · SSL" }, 
+          caseId: null, 
+          docId: "ecom-security" 
+        }
       ]
     },
     {
@@ -2178,6 +2617,12 @@
       root.dataset.place = 'bottom-left';
 
       const title = dict[folder.titleKey] || folder.titleKey;
+
+      if (folder.files.length > 5) {
+        root.style.setProperty('--gf-open-spread', '26px');
+        root.style.setProperty('--gf-open-fan', '3.2deg');
+        root.style.setProperty('--gf-open-stack', '16px');
+      }
 
       root.innerHTML = `
         <div class="gf-stage">
@@ -2334,10 +2779,13 @@
         sheetBtn.classList.add('gf-sheet--drop');
       }
 
+      const fileName = typeof file.name === 'object' ? (file.name[currentLang] || file.name.UA || file.name.EN) : file.name;
+      const fileMeta = typeof file.meta === 'object' ? (file.meta[currentLang] || file.meta.UA || file.meta.EN) : file.meta;
+
       sheetBtn.innerHTML = `
         <div class="gf-sheet-head">
-          <span class="gf-sheet-name">${file.name}</span>
-          <span class="gf-sheet-meta">${file.meta}</span>
+          <span class="gf-sheet-name">${fileName}</span>
+          <span class="gf-sheet-meta">${fileMeta}</span>
         </div>
         <div class="gf-lines">
           <i></i><i></i><i></i><i></i>
@@ -2357,7 +2805,7 @@
           openDocumentModal(file.docId);
           return;
         }
-        showToast(`📄 ${file.name} [${file.meta}] — ${folder.tone === 'dark' ? 'Secured in Vault' : 'Ready for deployment'}`);
+        showToast(`📄 ${fileName} [${fileMeta}] — ${folder.tone === 'dark' ? 'Secured in Vault' : 'Ready for deployment'}`);
       });
 
       slotDiv.appendChild(sheetBtn);

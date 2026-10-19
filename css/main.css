@@ -1862,9 +1862,9 @@ h1, h2, h3, h4, .font-heading {
 .gf-root[data-open="true"] { 
   --gf-hinge: -24deg; 
   --gf-lift: -96px; 
-  --gf-spread: 40px; 
-  --gf-fan: 5deg; 
-  --gf-stack: 30px; 
+  --gf-spread: var(--gf-open-spread, 40px); 
+  --gf-fan: var(--gf-open-fan, 5deg); 
+  --gf-stack: var(--gf-open-stack, 30px); 
 }
 
 .gf-stage {
@@ -1992,6 +1992,7 @@ canvas.gf-art[data-ready="true"] { opacity: 1; filter: none; }
 
 .gf-root[data-open="true"] .gf-sheet:hover,
 .gf-root[data-open="true"] .gf-sheet:focus-visible {
+  z-index: 20;
   transform:
     translate(calc(var(--gf-jx, 0px) + var(--gf-slot, 0) * var(--gf-spread)), calc(var(--gf-lift) + var(--gf-depth, 0) * var(--gf-stack) * -1 - 18px))
     rotate(calc(var(--gf-slot, 0) * var(--gf-fan) * .6));
