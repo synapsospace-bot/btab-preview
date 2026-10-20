@@ -3123,7 +3123,7 @@
     });
 
     const paletteColors = [
-      '#00f0ff', '#3b82f6', '#10b981', '#a855f7', '#38bdf8', '#06b6d4', '#60a5fa'
+      '#00f0ff', '#3b82f6', '#10b981', '#a855f7', '#ff3355', '#fb923c', '#06b6d4', '#60a5fa'
     ];
 
     class Bubble {
@@ -3389,16 +3389,39 @@
     const savedLang = localStorage.getItem('btab_lang') || 'BG';
     setLanguage(savedLang);
 
-    // 2. Palette Theme Init
+    // 2. Palette Theme Init & Switcher
+    const paletteLabels = {
+      BG: { cyan: "Циан (Electric)", violet: "Виолет (Cyber)", emerald: "Изумруд (Matrix)", sunset: "Залез (Orange)", red: "Червен (Ruby)" },
+      EN: { cyan: "Cyan (Electric)", violet: "Violet (Cyber)", emerald: "Emerald (Matrix)", sunset: "Sunset (Orange)", red: "Red (Neon Ruby)" },
+      UA: { cyan: "Ціан (Electric)", violet: "Віолет (Cyber)", emerald: "Смарагд (Matrix)", sunset: "Захід сонця (Orange)", red: "Червоний (Neon Ruby)" },
+      RU: { cyan: "Циан (Electric)", violet: "Фиолет (Cyber)", emerald: "Изумруд (Matrix)", sunset: "Закат (Orange)", red: "Красный (Neon Ruby)" }
+    };
+
+    function setPalette(palette, notify = false) {
+      document.body.dataset.palette = palette;
+      localStorage.setItem('btab_palette', palette);
+      document.querySelectorAll('.palette-dot-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.palette === palette);
+      });
+      if (notify) {
+        const lang = currentLang || 'BG';
+        const label = (paletteLabels[lang] && paletteLabels[lang][palette]) || palette.toUpperCase();
+        const prefix = {
+          BG: "Цветова тема:",
+          EN: "Color theme:",
+          UA: "Кольорова тема:",
+          RU: "Цветовая тема:"
+        }[lang] || "Theme:";
+        showToast(`🎨 ${prefix} ${label}`);
+      }
+    }
+
     const savedPalette = localStorage.getItem('btab_palette') || 'cyan';
-    document.body.dataset.palette = savedPalette;
+    setPalette(savedPalette, false);
 
     document.querySelectorAll('.palette-dot-btn').forEach(btn => {
       btn.addEventListener('click', () => {
-        const palette = btn.dataset.palette;
-        document.body.dataset.palette = palette;
-        localStorage.setItem('btab_palette', palette);
-        showToast(`Тема активирана: ${palette.toUpperCase()}`);
+        setPalette(btn.dataset.palette, true);
       });
     });
 
